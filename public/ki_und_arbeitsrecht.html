@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI und Arbeitsrecht Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400,700&display=swap">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <p id="qb64" style="display: none">eyJ0aXRsZSI6ICJLSSB1bmQgQXJiZWl0c3JlY2h0IFF1aXoiLCAidHlwZSI6ICJzaW1wbGUiLCAidXJsIjogImtpX3VuZF9hcmJlaXRzcmVjaHQiLCAicmVzdWx0cyI6IFt7InQiOiAiSGVydm9ycmFnZW5kISBEdSBiaXN0IGVpbiBLSS1SZWNodHNleHBlcnQhIiwgImUiOiAi8J+PhiJ9LCB7InQiOiAiU2VociBndXQhIER1IGtlbm5zdCBkaWNoIG1pdCBLSSB1bmQgUmVjaHQgZ3V0IGF1cyEiLCAiZSI6ICLwn46TIn0sIHsidCI6ICJHdXQgZ2VtYWNodCEgQWJlciBlcyBnaWJ0IG5vY2ggUmF1bSBmw7xyIFZlcmJlc3NlcnVuZy4iLCAiZSI6ICLwn5GNIn0sIHsidCI6ICJEdSBzb2xsdGVzdCBub2NoIGV0d2FzIG1laHIgw7xiZXIgS0kgdW5kIFJlY2h0IGxlcm5lbi4iLCAiZSI6ICLwn5OaIn1dLCAicXVlc3Rpb25zIjogW3sicXVlc3Rpb24iOiAiV2FzIHNpbmQgZGllIEhhdXB0emllbGUgZGVyIEtJLVZPPyIsICJhbnN3ZXJzIjogeyJhIjogIkRpZSBFbnR3aWNrbHVuZyB2b24gS0kgenUgdmVyaGluZGVybiIsICJiIjogIkVpbmVuIGVpbmhlaXRsaWNoZW4gUmVjaHRzcmFobWVuIGbDvHIgS0ktU3lzdGVtZSBpbiBkZXIgRVUgenUgc2NoYWZmZW4iLCAiYyI6ICJEaWUgRWluZsO8aHJ1bmcgdm9uIHZlcnRyYXVlbnN3w7xyZGlnZXIgS0kgenUgZsO2cmRlcm4iLCAiZCI6ICJOdXIgSG9jaHJpc2lrby1LSS1TeXN0ZW1lIHp1IHJlZ3VsaWVyZW4ifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJiIiwgImMiXSwgImV4cGxhbmF0aW9uIjogIkRpZSBLSS1WTyB6aWVsdCBkYXJhdWYgYWIsIGVpbmVuIGVpbmhlaXRsaWNoZW4gUmVjaHRzcmFobWVuIHp1IHNjaGFmZmVuIHVuZCBkaWUgRWluZsO8aHJ1bmcgdm9uIHZlcnRyYXVlbnN3w7xyZGlnZXIgS0kgenUgZsO2cmRlcm4uIiwgInNvdXJjZSI6ICJBYnNjaG5pdHQgViwgUnouIDMuMTE1LCAzLjExNiwgMy4xMTcsIDMuMTE4LCAzLjExOSJ9LCB7InF1ZXN0aW9uIjogIkRpZSBLSS1WTyB2ZXJmb2xndCBlaW5lbi4uLiIsICJhbnN3ZXJzIjogeyJhIjogInJpc2lrb2Jhc2llcnRlbiBBbnNhdHoiLCAiYiI6ICJwYXVzY2hhbGVuIEFuc2F0eiIsICJjIjogInZvcnNvcmdlbmRlbiBBbnNhdHoiLCAiZCI6ICJpbm5vdmF0aW9uc2ZyZXVuZGxpY2hlbiBBbnNhdHoifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJhIl0sICJleHBsYW5hdGlvbiI6ICJEaWUgS0ktVk8gdmVyZm9sZ3QgZWluZW4gcmlzaWtvYmFzaWVydGVuIEFuc2F0ei4iLCAic291cmNlIjogIkFic2Nobml0dCBWLCBSei4gMy4xMjgsIDMuMTI5In0sIHsicXVlc3Rpb24iOiAiV2FzIGlzdCBlaW4gQWxnb3JpdGhtdXM/IiwgImFuc3dlcnMiOiB7ImEiOiAiRWluZSBTYW1tbHVuZyB2b24gRGF0ZW4iLCAiYiI6ICJFaW4gQ29tcHV0ZXJwcm9ncmFtbSIsICJjIjogIkVpbmUgRm9sZ2Ugdm9uIEFud2Vpc3VuZ2VuIHp1ciBMw7ZzdW5nIGVpbmVzIFByb2JsZW1zIiwgImQiOiAiRWluZSBIYXJkd2FyZWtvbXBvbmVudGUifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJjIl0sICJleHBsYW5hdGlvbiI6ICJFaW4gQWxnb3JpdGhtdXMgaXN0IGVpbmUgZWluZGV1dGlnIGRlZmluaWVydGUgRm9sZ2Ugdm9uIEFud2Vpc3VuZ2VuLCB1bSBlaW4gYmVzdGltbXRlcyBQcm9ibGVtIHp1IGzDtnNlbi4iLCAic291cmNlIjogIkFic2Nobml0dCBJSSwgUnouIDMuMjMifSwgeyJxdWVzdGlvbiI6ICJXYXMgYmVkZXV0ZXQgZGVyIEJlZ3JpZmYgXCJoaXN0b3Jpc2NoZXIgQmlhc1wiIGltIFp1c2FtbWVuaGFuZyBtaXQgYWxnb3JpdGhtaXNjaGVyIERpc2tyaW1pbmllcnVuZz8iLCAiYW5zd2VycyI6IHsiYSI6ICJFaW5lIFZlcnplcnJ1bmcgaW4gQWxnb3JpdGhtZW4gYXVmZ3J1bmQgdm9uIEZlaGxlcm4gaW4gZGVyIFByb2dyYW1taWVydW5nIiwgImIiOiAiU3lzdGVtYXRpc2NoZSBWZXJ6ZXJydW5nZW4gaW4gRGF0ZW4sIGRpZSBhdXMgaGlzdG9yaXNjaGVuIEJlZGluZ3VuZ2VuIHJlc3VsdGllcmVuIiwgImMiOiAiRWluZSBWb3JsaWViZSB2b24gQWxnb3JpdGhtZW4gZsO8ciBoaXN0b3Jpc2NoZSBEYXRlbiIsICJkIjogIkVpbmUgVmVyemVycnVuZywgZGllIG51ciBpbiBoaXN0b3Jpc2NoZW4gQXJjaGl2ZW4gYXVmdHJpdHQifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJiIl0sICJleHBsYW5hdGlvbiI6ICJIaXN0b3Jpc2NoZXIgQmlhcyBiZXppZWh0IHNpY2ggYXVmIFZlcnplcnJ1bmdlbiBpbiBEYXRlbiwgZGllIFVuZ2xlaWNoaGVpdGVuIGF1cyBkZXIgVmVyZ2FuZ2VuaGVpdCB3aWRlcnNwaWVnZWxuLiIsICJzb3VyY2UiOiAiQWJzY2huaXR0IElWLCBSei4gMy41NSJ9LCB7InF1ZXN0aW9uIjogIldlbGNoZSBkZXIgZm9sZ2VuZGVuIEtJLVByYWt0aWtlbiBpc3QgbGF1dCBLSS1WTyB2ZXJib3Rlbj8iLCAiYW5zd2VycyI6IHsiYSI6ICJFbW90aW9uc2Vya2VubnVuZyBhbSBBcmJlaXRzcGxhdHogenUgU2ljaGVyaGVpdHN6d2Vja2VuIiwgImIiOiAiQmlvbWV0cmlzY2hlIEthdGVnb3Jpc2llcnVuZyB6dXIgRmVzdHN0ZWxsdW5nIGRlciBldGhuaXNjaGVuIFp1Z2Vow7ZyaWdrZWl0IiwgImMiOiAiUmlzaWtvYmV3ZXJ0dW5nIHZvbiBNZW5zY2hlbiBpWm0gZWluZXIga8O8bmZ0aWdlbiBTdHJhZnRhdCAocHJlZGljdGl2ZSBwb2xpY2luZykiLCAiZCI6ICJWZXJ3ZW5kdW5nIHZvbiBLSSB6dXIgVW50ZXJzdMO8dHp1bmcgYmVpIGRlciBQZXJzb25hbGF1c3dhaGwifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJiIiwgImMiXSwgImV4cGxhbmF0aW9uIjogIkRpZSBLSS1WTyB2ZXJiaWV0ZXQgYmVzdGltbXRlIFByYWt0aWtlbiB3aWUgZGllIGJpb21ldHJpc2NoZSBLYXRlZ29yaXNpZXJ1bmcgenVyIEZlc3RzdGVsbHVuZyBkZXIgZXRobmlzY2hlbiBadWdlaMO2cmlna2VpdCB1bmQgXCJwcmVkaWN0aXZlIHBvbGljaW5nXCIuIiwgInNvdXJjZSI6ICJBYnNjaG5pdHQgViwgUnouIDMuMTMyLCAzLjEzMyJ9LCB7InF1ZXN0aW9uIjogIldlbGNoZSBWb3J0ZWlsZSBrw7ZubmVuIG1pdCBkZW0gRWluc2F0eiB2b24gQUVTIHZlcmJ1bmRlbiBzZWluPyIsICJhbnN3ZXJzIjogeyJhIjogIkjDtmhlcmUgRmVobGVyYW5mw6RsbGlna2VpdCIsICJiIjogIkjDtmhlcmUgRWZmaXppZW56IGRlcyBFbnRzY2hlaWR1bmdzcHJvemVzc2VzIiwgImMiOiAiT2JqZWt0aXZlcmUgRW50c2NoZWlkdW5nZW4gZHVyY2ggQXVzc2NoYWx0dW5nIG1lbnNjaGxpY2hlciBWb3J1cnRlaWxlIiwgImQiOiAiTWFuZ2VsbmRlIFRyYW5zcGFyZW56In0sICJjb3JyZWN0QW5zd2VycyI6IFsiYiIsICJjIl0sICJleHBsYW5hdGlvbiI6ICJBRVMga8O2bm5lbiBkaWUgRWZmaXppZW56IHN0ZWlnZXJuIHVuZCB6dSBvYmpla3RpdmVyZW4gRW50c2NoZWlkdW5nZW4gYmVpdHJhZ2VuLiIsICJzb3VyY2UiOiAiQWJzY2huaXR0IElJSSwgUnouIDMuNDEifSwgeyJxdWVzdGlvbiI6ICJXZWxjaGVzIGRlciBmb2xnZW5kZW4gQmVpc3BpZWxlIGlzdCBLRUlOIHR5cGlzY2hlciBBbndlbmR1bmdzYmVyZWljaCBmw7xyIEFsZ29yaXRobWVuIGltIEtvbnRleHQgdm9uIEtJLVN5c3RlbWVuPyIsICJhbnN3ZXJzIjogeyJhIjogIlNwYW1maWx0ZXIgaW4gRS1NYWlsLVByb2dyYW1tZW4iLCAiYiI6ICJFbXBmZWhsdW5nc3N5c3RlbWUgdm9uIFN0cmVhbWluZy1EaWVuc3RlbiIsICJjIjogIk1hbnVlbGxlIFNvcnRpZXJ1bmcgdm9uIEJyaWVmZW4gaW0gUG9zdGFtdCIsICJkIjogIk5hdmlnYXRpb25zLUFwcHMgYXVmIFNtYXJ0cGhvbmVzIn0sICJjb3JyZWN0QW5zd2VycyI6IFsiYyJdLCAiZXhwbGFuYXRpb24iOiAiQWxnb3JpdGhtZW4gc2luZCBpbSBLb250ZXh0IHZvbiBLSS1TeXN0ZW1lbiB0eXBpc2NoZXJ3ZWlzZSBpbiBTb2Z0d2FyZSBpbnRlZ3JpZXJ0LCB1bSBhdXRvbWF0aXNpZXJ0ZSBBdWZnYWJlbiBhdXN6dWbDvGhyZW4uIERpZSBtYW51ZWxsZSBTb3J0aWVydW5nIHZvbiBCcmllZmVuIGlzdCBrZWluIGF1dG9tYXRpc2llcnRlciBQcm96ZXNzLiIsICJzb3VyY2UiOiAiQWJzY2huaXR0IEksIFJ6LiAzLjIsIDMuODkifSwgeyJxdWVzdGlvbiI6ICJXYXMgaXN0IGFsZ29yaXRobWlzY2hlIERpc2tyaW1pbmllcnVuZz8iLCAiYW5zd2VycyI6IHsiYSI6ICJEaXNrcmltaW5pZXJ1bmcgZHVyY2ggTWVuc2NoZW4iLCAiYiI6ICJVbmdlcmVjaHRmZXJ0aWd0ZSBCZW5hY2h0ZWlsaWd1bmcgdm9uIFBlcnNvbmVuIGR1cmNoIEFsZ29yaXRobWVuIiwgImMiOiAiQmV2b3J6dWd1bmcgYmVzdGltbXRlciBBbGdvcml0aG1lbiIsICJkIjogIkRhcyBGZWhsZW4gdm9uIEFsZ29yaXRobWVuIn0sICJjb3JyZWN0QW5zd2VycyI6IFsiYiJdLCAiZXhwbGFuYXRpb24iOiAiQWxnb3JpdGhtaXNjaGUgRGlza3JpbWluaWVydW5nIGJlemllaHQgc2ljaCBhdWYgZGllIHVuZ2VyZWNodGZlcnRpZ3RlIEJlbmFjaHRlaWxpZ3VuZyB2b24gUGVyc29uZW4gYXVmZ3J1bmQgZGVzIEVpbnNhdHplcyB2b24gQWxnb3JpdGhtZW4uIiwgInNvdXJjZSI6ICJBYnNjaG5pdHQgSVYsIFJ6LiAzLjQ0In0sIHsicXVlc3Rpb24iOiAiV2FzIHNpbmQgQWxnb3JpdGhtaXNjaGUgRW50c2NoZWlkdW5nc3N5c3RlbWUgKEFFUyk/IiwgImFuc3dlcnMiOiB7ImEiOiAiU3lzdGVtZSwgZGllIGF1c3NjaGxpZcOfbGljaCBEYXRlbiBzcGVpY2hlcm4iLCAiYiI6ICJTeXN0ZW1lLCBkaWUgbWVuc2NobGljaGUgRW50c2NoZWlkdW5nZW4gaW1tZXIgZXJzZXR6ZW4iLCAiYyI6ICJTeXN0ZW1lLCBkaWUgRGF0ZW4gYW5hbHlzaWVyZW4gdW5kIEVudHNjaGVpZHVuZ2VuIG9kZXIgRW1wZmVobHVuZ2VuIGFibGVpdGVuIiwgImQiOiAiU3lzdGVtZSwgZGllIG51ciBpbiBkZXIgRmluYW56YnJhbmNoZSBlaW5nZXNldHp0IHdlcmRlbiJ9LCAiY29ycmVjdEFuc3dlcnMiOiBbImMiXSwgImV4cGxhbmF0aW9uIjogIkFFUyBlcmZhc3NlbiwgYW5hbHlzaWVyZW4gdW5kIGludGVycHJldGllcmVuIERhdGVuIHVuZCBsZWl0ZW4gZGFyYXVzIEVudHNjaGVpZHVuZ2VuIG9kZXIgRW1wZmVobHVuZ2VuIGFiLiIsICJzb3VyY2UiOiAiQWJzY2huaXR0IElJSSwgUnouIDMuMzcifSwgeyJxdWVzdGlvbiI6ICJXZWxjaGUgZGVyIGZvbGdlbmRlbiBCZWlzcGllbGUga8O2bm5lbiBVcnNhY2hlbiBmw7xyIGFsZ29yaXRobWlzY2hlIERpc2tyaW1pbmllcnVuZyBzZWluPyIsICJhbnN3ZXJzIjogeyJhIjogIkF1c3dhaGwgZGVyIFppZWx2YXJpYWJsZW4gKHpCIE1pdGFyYmVpdGVuZGUgbWl0IGdlcmluZ2VuIEZlaGx6ZWl0ZW4pIiwgImIiOiAiT2JqZWt0aXZpdMOkdCBkZXIgVHJhaW5pbmdzZGF0ZW4iLCAiYyI6ICJNYW5nZWxuZGUgUmVwcsOkc2VudGF0aXZpdMOkdCBkZXIgVHJhaW5pbmdzZGF0ZW4iLCAiZCI6ICJIb2hlIFRyYW5zcGFyZW56IHZvbiBBbGdvcml0aG1lbiJ9LCAiY29ycmVjdEFuc3dlcnMiOiBbImEiLCAiYyJdLCAiZXhwbGFuYXRpb24iOiAiRGllIEF1c3dhaGwgZGVyIFppZWx2YXJpYWJsZW4gdW5kIG1hbmdlbG5kZSBSZXByw6RzZW50YXRpdml0w6R0IGRlciBUcmFpbmluZ3NkYXRlbiBrw7ZubmVuIHp1IGFsZ29yaXRobWlzY2hlciBEaXNrcmltaW5pZXJ1bmcgZsO8aHJlbi4ifV19</p>
+    <div class="quiz-container">
+        <h1 id="quiz-title">KI und Arbeitsrecht Quiz</h1>
+        <div id="progress">Frage 1 von 10</div>
+        <div id="question-container">
+            <div id="question">Lädt..</div>
+            <div id="answers-container">
+                <div class="answer">
+                    <input type="radio" id="a" name="answer" value="a">
+                    <label for="a">Antwort A</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="b" name="answer" value="b">
+                    <label for="b">Antwort B</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="c" name="answer" value="c">
+                    <label for="c">Antwort C</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="d" name="answer" value="d">
+                    <label for="d">Antwort D</label>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="next-button">Nächste Frage</button>
+            <button id="submit-button">Antwort bestätigen</button>
+        </div>
+        <div id="feedback-container">
+            <div id="feedback"></div>
+            <div id="explanation"></div>
+            <div id="source"></div>
+        </div>
+        <div id="score-container">
+            Punktzahl: <span id="score">0</span> / <span id="total-questions">10</span>
+        </div>
+    </div>
+</body>
+
+</html>

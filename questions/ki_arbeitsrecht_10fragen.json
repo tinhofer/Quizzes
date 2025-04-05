@@ -1,0 +1,132 @@
+{
+    "title": "KI und Arbeitsrecht Quiz",
+    "type": "simple",
+    "url": "ki_und_arbeitsrecht",
+    "results": [
+        {"t": "Hervorragend! Du bist ein KI-Rechtsexpert!", "e": "🏆"},
+        {"t": "Sehr gut! Du kennst dich mit KI und Recht gut aus!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung." , "e": "👍"},
+        {"t": "Du solltest noch etwas mehr über KI und Recht lernen.", "e": "📚"}
+    ],
+    "questions":  [
+        {
+            "question": "Was sind die Hauptziele der KI-VO?",
+            "answers": {
+                "a": "Die Entwicklung von KI zu verhindern",
+                "b": "Einen einheitlichen Rechtsrahmen für KI-Systeme in der EU zu schaffen",
+                "c": "Die Einführung von vertrauenswürdiger KI zu fördern",
+                "d": "Nur Hochrisiko-KI-Systeme zu regulieren"
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Die KI-VO zielt darauf ab, einen einheitlichen Rechtsrahmen zu schaffen und die Einführung von vertrauenswürdiger KI zu fördern.",
+            "source": "Abschnitt V, Rz. 3.115, 3.116, 3.117, 3.118, 3.119"
+        },
+        {
+            "question": "Die KI-VO verfolgt einen...",
+            "answers": {
+                "a": "risikobasierten Ansatz",
+                "b": "pauschalen Ansatz",
+                "c": "vorsorgenden Ansatz",
+                "d": "innovationsfreundlichen Ansatz"
+            },
+            "correctAnswers": ["a"],
+            "explanation": "Die KI-VO verfolgt einen risikobasierten Ansatz.",
+            "source": "Abschnitt V, Rz. 3.128, 3.129"
+        },
+        {
+            "question": "Was ist ein Algorithmus?",
+            "answers": {
+                "a": "Eine Sammlung von Daten",
+                "b": "Ein Computerprogramm",
+                "c": "Eine Folge von Anweisungen zur Lösung eines Problems",
+                "d": "Eine Hardwarekomponente"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Ein Algorithmus ist eine eindeutig definierte Folge von Anweisungen, um ein bestimmtes Problem zu lösen.",
+            "source": "Abschnitt II, Rz. 3.23"
+        },
+        {
+            "question": "Was bedeutet der Begriff \"historischer Bias\" im Zusammenhang mit algorithmischer Diskriminierung?",
+            "answers": {
+                "a": "Eine Verzerrung in Algorithmen aufgrund von Fehlern in der Programmierung",
+                "b": "Systematische Verzerrungen in Daten, die aus historischen Bedingungen resultieren",
+                "c": "Eine Vorliebe von Algorithmen für historische Daten",
+                "d": "Eine Verzerrung, die nur in historischen Archiven auftritt"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Historischer Bias bezieht sich auf Verzerrungen in Daten, die Ungleichheiten aus der Vergangenheit widerspiegeln.",
+            "source": "Abschnitt IV, Rz. 3.55"
+        },
+        {
+            "question": "Welche der folgenden KI-Praktiken ist laut KI-VO verboten?",
+            "answers": {
+                "a": "Emotionserkennung am Arbeitsplatz zu Sicherheitszwecken",
+                "b": "Biometrische Kategorisierung zur Feststellung der ethnischen Zugehörigkeit",
+                "c": "Risikobewertung von Menschen iZm einer künftigen Straftat (predictive policing)",
+                "d": "Verwendung von KI zur Unterstützung bei der Personalauswahl"
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Die KI-VO verbietet bestimmte Praktiken wie die biometrische Kategorisierung zur Feststellung der ethnischen Zugehörigkeit und \"predictive policing\".",
+            "source": "Abschnitt V, Rz. 3.132, 3.133"
+        },
+        {
+            "question": "Welche Vorteile können mit dem Einsatz von AES verbunden sein?",
+            "answers": {
+                "a": "Höhere Fehleranfälligkeit",
+                "b": "Höhere Effizienz des Entscheidungsprozesses",
+                "c": "Objektivere Entscheidungen durch Ausschaltung menschlicher Vorurteile",
+                "d": "Mangelnde Transparenz"
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "AES können die Effizienz steigern und zu objektiveren Entscheidungen beitragen.",
+            "source": "Abschnitt III, Rz. 3.41"
+        },
+        {
+            "question": "Welches der folgenden Beispiele ist KEIN typischer Anwendungsbereich für Algorithmen im Kontext von KI-Systemen?",
+            "answers": {
+                "a": "Spamfilter in E-Mail-Programmen",
+                "b": "Empfehlungssysteme von Streaming-Diensten",
+                "c": "Manuelle Sortierung von Briefen im Postamt",
+                "d": "Navigations-Apps auf Smartphones"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Algorithmen sind im Kontext von KI-Systemen typischerweise in Software integriert, um automatisierte Aufgaben auszuführen. Die manuelle Sortierung von Briefen ist kein automatisierter Prozess.",
+            "source": "Abschnitt I, Rz. 3.2, 3.89"
+        },
+        {
+            "question": "Was ist algorithmische Diskriminierung?",
+            "answers": {
+                "a": "Diskriminierung durch Menschen",
+                "b": "Ungerechtfertigte Benachteiligung von Personen durch Algorithmen",
+                "c": "Bevorzugung bestimmter Algorithmen",
+                "d": "Das Fehlen von Algorithmen"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Algorithmische Diskriminierung bezieht sich auf die ungerechtfertigte Benachteiligung von Personen aufgrund des Einsatzes von Algorithmen.",
+            "source": "Abschnitt IV, Rz. 3.44"
+        },
+        {
+            "question": "Was sind Algorithmische Entscheidungssysteme (AES)?",
+            "answers": {
+                "a": "Systeme, die ausschließlich Daten speichern",
+                "b": "Systeme, die menschliche Entscheidungen immer ersetzen",
+                "c": "Systeme, die Daten analysieren und Entscheidungen oder Empfehlungen ableiten",
+                "d": "Systeme, die nur in der Finanzbranche eingesetzt werden"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "AES erfassen, analysieren und interpretieren Daten und leiten daraus Entscheidungen oder Empfehlungen ab.",
+            "source": "Abschnitt III, Rz. 3.37"
+        },
+        {
+            "question": "Welche der folgenden Beispiele können Ursachen für algorithmische Diskriminierung sein?",
+            "answers": {
+                "a": "Auswahl der Zielvariablen (zB Mitarbeitende mit geringen Fehlzeiten)",
+                "b": "Objektivität der Trainingsdaten",
+                "c": "Mangelnde Repräsentativität der Trainingsdaten",
+                "d": "Hohe Transparenz von Algorithmen"
+            },
+            "correctAnswers": ["a", "c"],
+            "explanation": "Die Auswahl der Zielvariablen und mangelnde Repräsentativität der Trainingsdaten können zu algorithmischer Diskriminierung führen."
+        }
+    ]
+}

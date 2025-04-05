@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KI und Arbeitsrecht Quiz</title>
+    <title>{{quiz_title}}</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400,700&display=swap">
     <script src="script.js" defer></script>
 </head>
 
 <body>
+    <p id="qb64" style="display: none">{{QUESTIONS_B64}}</p>
     <div class="quiz-container">
-        <h1 id="quiz-title">KI und Arbeitsrecht Quiz</h1>
+        <h1 id="quiz-title">{{quiz_title}}</h1>
         <div id="progress">Frage 1 von 10</div>
         <div id="question-container">
-            <div id="question">Was ist ein Algorithmus?</div>
+            <div id="question">Lädt..</div>
             <div id="answers-container">
                 <div class="answer">
                     <input type="radio" id="a" name="answer" value="a">
