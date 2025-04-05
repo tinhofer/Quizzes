@@ -7,7 +7,6 @@ def simple_builder(json_object):
     with open(f"{script_path}/template.html", encoding="utf-8") as template_file:
         template_html = template_file.read()
         template_html = template_html.replace(r"{{QUESTIONS_B64}}", q_str)
-        #template_html = template_html.replace(r"{{return_url}}", json_object["return_url"])
         template_html = template_html.replace(r"{{quiz_title}}", title)
         with open(f"{script_path}/docs/" + json_object["url"] + ".html" , "w", encoding="utf-8") as f:
             f.write(template_html)
