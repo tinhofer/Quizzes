@@ -9,7 +9,7 @@ def simple_builder(json_object):
         template_html = template_html.replace(r"{{QUESTIONS_B64}}", q_str)
         #template_html = template_html.replace(r"{{return_url}}", json_object["return_url"])
         template_html = template_html.replace(r"{{quiz_title}}", title)
-        with open(f"{script_path}/public/" + json_object["url"] + ".html" , "w", encoding="utf-8") as f:
+        with open(f"{script_path}/docs/" + json_object["url"] + ".html" , "w", encoding="utf-8") as f:
             f.write(template_html)
 
 def find_builder(type):
@@ -20,8 +20,8 @@ def find_builder(type):
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 print(f"Running from {script_path}!")
-print("Clearing public directory...")
-for root, dirs, files in os.walk(os.path.join(script_path, f'{script_path}/public')):
+print("Clearing docs directory...")
+for root, dirs, files in os.walk(os.path.join(script_path, f'{script_path}/docs')):
     for f in files:
         os.unlink(os.path.join(root, f))
     for d in dirs:
@@ -40,5 +40,5 @@ for f in os.listdir(f"{script_path}/questions"):
         builder = find_builder(jObj["type"])
         builder(jObj)
 
-shutil.copy(f"{script_path}/style.css", f"{script_path}/public/style.css")
-shutil.copy(f"{script_path}/script.js", f"{script_path}/public/script.js")
+shutil.copy(f"{script_path}/style.css", f"{script_path}/docs/style.css")
+shutil.copy(f"{script_path}/script.js", f"{script_path}/docs/script.js")

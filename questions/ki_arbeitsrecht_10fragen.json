@@ -3,10 +3,10 @@
     "type": "simple",
     "url": "ki_und_arbeitsrecht",
     "results": [
-        {"t": "Hervorragend! Du bist ein KI-Rechtsexpert!", "e": "🏆"},
+        {"t": "Hervorragend! Du bist ein KI-Rechtsexperte!", "e": "🏆"},
         {"t": "Sehr gut! Du kennst dich mit KI und Recht gut aus!", "e": "🎓"},
         {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung." , "e": "👍"},
-        {"t": "Du solltest noch etwas mehr über KI und Recht lernen.", "e": "📚"}
+        {"t": "Du solltest noch etwas mehr über KI und Recht lernen.", "e": "😉"}
     ],
     "questions":  [
         {
