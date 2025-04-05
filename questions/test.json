@@ -1,0 +1,24 @@
+{
+    "title": "KI und Arbeitsrecht Quiz",
+    "type": "simple",
+    "url": "test",
+    "results": [
+        {"t": "Hervorragend! Du bist ein KI-Rechtsexperte!", "e": "🏆"},
+        {"t": "Sehr gut! Du kennst dich mit KI und Recht gut aus!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung." , "e": "👍"},
+        {"t": "Du solltest noch etwas mehr über KI und Recht lernen.", "e": "😉"}
+    ],
+    "questions":  [
+        {
+            "question": "Was ist die Wurzel aus 100?",
+            "answers": {
+                "a": "Höhere Fehleranfälligkeit",
+                "b": "Höhere Effizienz des Entscheidungsprozesses",
+                "c": "Objektivere Entscheidungen durch Ausschaltung menschlicher Vorurteile",
+                "d": "10"
+            },
+            "correctAnswers": ["d"],
+            "explanation": "Taschenrechnung: Die Wurzel aus 100 ist 10."
+        }
+    ]
+}

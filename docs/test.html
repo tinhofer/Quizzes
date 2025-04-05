@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI und Arbeitsrecht Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400,700&display=swap">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <p id="qb64" style="display: none">eyJ0aXRsZSI6ICJLSSB1bmQgQXJiZWl0c3JlY2h0IFF1aXoiLCAidHlwZSI6ICJzaW1wbGUiLCAidXJsIjogInRlc3QiLCAicmVzdWx0cyI6IFt7InQiOiAiSGVydm9ycmFnZW5kISBEdSBiaXN0IGVpbiBLSS1SZWNodHNleHBlcnRlISIsICJlIjogIvCfj4YifSwgeyJ0IjogIlNlaHIgZ3V0ISBEdSBrZW5uc3QgZGljaCBtaXQgS0kgdW5kIFJlY2h0IGd1dCBhdXMhIiwgImUiOiAi8J+OkyJ9LCB7InQiOiAiR3V0IGdlbWFjaHQhIEFiZXIgZXMgZ2lidCBub2NoIFJhdW0gZsO8ciBWZXJiZXNzZXJ1bmcuIiwgImUiOiAi8J+RjSJ9LCB7InQiOiAiRHUgc29sbHRlc3Qgbm9jaCBldHdhcyBtZWhyIMO8YmVyIEtJIHVuZCBSZWNodCBsZXJuZW4uIiwgImUiOiAi8J+YiSJ9XSwgInF1ZXN0aW9ucyI6IFt7InF1ZXN0aW9uIjogIldhcyBpc3QgZGllIFd1cnplbCBhdXMgMTAwPyIsICJhbnN3ZXJzIjogeyJhIjogIkjDtmhlcmUgRmVobGVyYW5mw6RsbGlna2VpdCIsICJiIjogIkjDtmhlcmUgRWZmaXppZW56IGRlcyBFbnRzY2hlaWR1bmdzcHJvemVzc2VzIiwgImMiOiAiT2JqZWt0aXZlcmUgRW50c2NoZWlkdW5nZW4gZHVyY2ggQXVzc2NoYWx0dW5nIG1lbnNjaGxpY2hlciBWb3J1cnRlaWxlIiwgImQiOiAiMTAifSwgImNvcnJlY3RBbnN3ZXJzIjogWyJkIl0sICJleHBsYW5hdGlvbiI6ICJUYXNjaGVucmVjaG51bmc6IERpZSBXdXJ6ZWwgYXVzIDEwMCBpc3QgMTAuIn1dfQ==</p>
+    <div class="quiz-container">
+        <h1 id="quiz-title">KI und Arbeitsrecht Quiz</h1>
+        <div id="progress">Frage 1 von 10</div>
+        <div id="question-container">
+            <div id="question">Lädt..</div>
+            <div id="answers-container">
+                <div class="answer">
+                    <input type="radio" id="a" name="answer" value="a">
+                    <label for="a">Antwort A</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="b" name="answer" value="b">
+                    <label for="b">Antwort B</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="c" name="answer" value="c">
+                    <label for="c">Antwort C</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="d" name="answer" value="d">
+                    <label for="d">Antwort D</label>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="next-button">Nächste Frage</button>
+            <button id="submit-button">Antwort bestätigen</button>
+        </div>
+        <div id="feedback-container">
+            <div id="feedback"></div>
+            <div id="explanation"></div>
+            <div id="source"></div>
+        </div>
+        <div id="score-container">
+            Punktzahl: <span id="score">0</span> / <span id="total-questions">10</span>
+        </div>
+    </div>
+</body>
+
+</html>
