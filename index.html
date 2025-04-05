@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI und Arbeitsrecht Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400,700&display=swap">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1 id="quiz-title">KI und Arbeitsrecht Quiz</h1>
+        <div id="progress">Frage 1 von 10</div>
+        <div id="question-container">
+            <div id="question">Was ist ein Algorithmus?</div>
+            <div id="answers-container">
+                <div class="answer">
+                    <input type="radio" id="a" name="answer" value="a">
+                    <label for="a">Antwort A</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="b" name="answer" value="b">
+                    <label for="b">Antwort B</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="c" name="answer" value="c">
+                    <label for="c">Antwort C</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="d" name="answer" value="d">
+                    <label for="d">Antwort D</label>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="next-button">Nächste Frage</button>
+            <button id="submit-button">Antwort bestätigen</button>
+        </div>
+        <div id="feedback-container">
+            <div id="feedback"></div>
+            <div id="explanation"></div>
+            <div id="source"></div>
+        </div>
+        <div id="score-container">
+            Punktzahl: <span id="score">0</span> / <span id="total-questions">10</span>
+        </div>
+    </div>
+</body>
+
+</html>
