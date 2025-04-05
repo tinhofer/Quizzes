@@ -40,5 +40,5 @@ for f in os.listdir(f"{script_path}/questions"):
         builder = find_builder(jObj["type"])
         builder(jObj)
 
-shutil.copy(f"{script_path}/style.css", f"{script_path}/docs/style.css")
-shutil.copy(f"{script_path}/script.js", f"{script_path}/docs/script.js")
+for f in os.listdir(f"{script_path}/requirements"):
+    shutil.copy(f"{script_path}/requirements/{f}", f"{script_path}/docs/{f}")
