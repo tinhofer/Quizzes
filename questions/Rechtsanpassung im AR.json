@@ -1,0 +1,253 @@
+{
+    "title": "Quiz zur Rechtsanpassung im Arbeitsrecht (Multiple Choice)",
+    "type": "simple",
+    "url": "rechtsanpassung_arbeitsrecht_mc",
+    "results": [
+        {"t": "Hervorragend! Sie sind ein Experte/eine Expertin für Rechtsanpassung im Arbeitsrecht!", "e": "🏆"},
+        {"t": "Sehr gut! Sie haben ein solides Wissen über die Anpassungsmöglichkeiten im Arbeitsrecht.", "e": "🎓"},
+        {"t": "Gut gemacht! Einige Bereiche könnten Sie noch vertiefen.", "e": "👍"},
+        {"t": "Hier gibt es noch Lernbedarf. Schauen Sie sich die Folien noch einmal genau an.", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Welche der folgenden sind arbeitsrechtliche Gestaltungsmittel im Betrieb laut den Folien? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Gesetz",
+                "b": "Arbeitsvertrag",
+                "c": "Weisungen des Arbeitgebers (inkl. Richtlinien)",
+                "d": "Betriebsvereinbarung"
+            },
+            "correctAnswers": ["b", "c", "d"],
+            "explanation": "Die Folien nennen die Betriebsvereinbarung, den Arbeitsvertrag und Weisungen (inkl. Richtlinien) als die zentralen arbeitsrechtlichen Gestaltungsmittel im Betrieb. Gesetze bilden den Rahmen, sind aber kein Gestaltungsmittel *im* Betrieb in diesem Sinne.",
+            "source": "Folie 2 [source: 2]"
+        },
+        {
+            "question": "Was versteht man unter einer Änderungskündigung?",
+            "answers": {
+                "a": "Eine Kündigung, die einvernehmlich geändert wird.",
+                "b": "Eine Kündigung des Arbeitgebers mit dem gleichzeitigen Angebot, das Arbeitsverhältnis zu geänderten Bedingungen fortzusetzen.",
+                "c": "Eine Kündigung, die eine Änderung des Arbeitsortes beinhaltet.",
+                "d": "Die Änderung einer bestehenden Kündigungsfrist."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Die Änderungskündigung ist eine Kündigung, die mit dem Angebot verbunden ist, das Arbeitsverhältnis zu anderen Bedingungen fortzusetzen. Sie ist eine Möglichkeit zur Änderung des Arbeitsvertrags.",
+            "source": "Folie 3 [source: 3], Folie 14 [source: 17]"
+        },
+        {
+            "question": "Für welche der folgenden Leistungen kann typischerweise ein Widerrufsvorbehalt im Arbeitsvertrag vereinbart werden? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Das monatliche Grundgehalt.",
+                "b": "Eine freiwillige Mehrleistungspauschale.",
+                "c": "Der gesetzliche Urlaubsanspruch.",
+                "d": "Eine freiwillige Zulage für eine bestimmte Funktion."
+            },
+            "correctAnswers": ["b", "d"],
+            "explanation": "Widerrufsvorbehalte sind für freiwillige Zusatzleistungen wie Mehrleistungspauschalen oder funktionsbezogene Zulagen möglich. Das Grundentgelt und gesetzliche Ansprüche (wie der gesetzliche Urlaub) sind davon grundsätzlich ausgeschlossen.",
+            "source": "Folie 4 [source: 4]"
+        },
+        {
+            "question": "Was versteht man im Sinne des § 101 ArbVG unter einer \"dauernden\" Versetzung?",
+            "answers": {
+                "a": "Eine Versetzung für mehr als 4 Wochen.",
+                "b": "Eine Versetzung für mindestens 13 Wochen.",
+                "c": "Eine Versetzung auf unbestimmte Zeit.",
+                "d": "Jede Versetzung, die eine Änderung des Dienstzettels erfordert."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Der betriebsverfassungsrechtliche Versetzungsschutz nach § 101 ArbVG greift bei einer \"dauernden\" Versetzung, die als eine Versetzung für mindestens 13 Wochen definiert wird.",
+            "source": "Folie 8 [source: 9]"
+        },
+        {
+            "question": "Unter welchen Bedingungen besteht eine grundsätzliche Pflicht zur Leistung von Überstunden für ArbeitnehmerInnen?",
+            "answers": {
+                "a": "Immer wenn der Arbeitgeber es anordnet.",
+                "b": "Nur wenn es im Kollektivvertrag ausdrücklich vorgesehen ist.",
+                "c": "Wenn eine Verpflichtung (Gesetz, AV, KollV, BetrV) besteht, ein erhöhter Arbeitsbedarf vorliegt und keine berücksichtigungswürdigen AN-Interessen entgegenstehen.",
+                "d": "Wenn der Betriebsrat zustimmt."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Die Pflicht zur Überstundenleistung setzt eine rechtliche Verpflichtung (aus Gesetz, Vertrag, KV oder BV), einen erhöhten Arbeitsbedarf bzw. Vor-/Abschlussarbeiten und eine Interessenabwägung (keine entgegenstehenden berücksichtigungswürdigen AN-Interessen) voraus.",
+            "source": "Folie 9 [source: 10]"
+        },
+        {
+            "question": "Welches Recht haben ArbeitnehmerInnen bezüglich Überstunden nach der 10. Stunde täglich bzw. 50. Stunde wöchentlich?",
+            "answers": {
+                "a": "Anspruch auf doppelten Überstundenzuschlag.",
+                "b": "Das Recht, diese Überstunden grundlos abzulehnen.",
+                "c": "Das Recht auf sofortigen Zeitausgleich.",
+                "d": "Kein besonderes Recht, sie müssen geleistet werden."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "ArbeitnehmerInnen können Überstunden, die über 10 Stunden täglich oder 50 Stunden wöchentlich hinausgehen, grundlos ablehnen und dürfen deswegen nicht benachteiligt werden (§ 7 Abs 6 iVm § 9 Abs 2a AZG).",
+            "source": "Folie 11 [source: 12]"
+        },
+        {
+            "question": "Welche der folgenden Bedingungen müssen laut § 19c AZG für eine einseitige Änderung der Lage der Arbeitszeit durch den Arbeitgeber erfüllt sein? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Es muss ein vertraglicher Änderungsvorbehalt bestehen.",
+                "b": "Der Betriebsrat muss zustimmen.",
+                "c": "Es muss eine sachliche Rechtfertigung vorliegen.",
+                "d": "Die Änderung muss mindestens 2 Wochen vorher mitgeteilt werden."
+            },
+            "correctAnswers": ["a", "c", "d"],
+            "explanation": "§ 19c AZG nennt als Voraussetzungen: einen vertraglichen Änderungsvorbehalt, sachliche Rechtfertigung, Mitteilung 2 Wochen vorher und keine entgegenstehenden berücksichtigungswürdigen Interessen des Arbeitnehmers/der Arbeitnehmerin. Die Zustimmung des BR ist keine Voraussetzung nach § 19c AZG.",
+            "source": "Folie 12 [source: 13]"
+        },
+        {
+            "question": "Wer kann nach dem Arbeitszeitgesetz (AZG) grundsätzlich den einseitigen Abbau von Zeitguthaben verlangen?",
+            "answers": {
+                "a": "Nur der Arbeitgeber.",
+                "b": "Nur der Arbeitnehmer/die Arbeitnehmerin (unter bestimmten Voraussetzungen).",
+                "c": "Arbeitgeber und Arbeitnehmer im gegenseitigen Einvernehmen.",
+                "d": "Der Betriebsrat."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Das AZG (§ 19f Abs 1) gibt grundsätzlich nur dem Arbeitnehmer/der Arbeitnehmerin das Recht, unter bestimmten Voraussetzungen (lange Durchrechnungszeiträume, vereinbarter Zeitausgleich für Überstunden) einseitig den Abbau von Zeitguthaben zu verlangen.",
+            "source": "Folie 13 [source: 14, 15]"
+        },
+        {
+            "question": "Was ist die wesentliche Rechtsfolge eines Betriebsübergangs gemäß § 3 Abs 1 AVRAG für bestehende Arbeitsverhältnisse?",
+            "answers": {
+                "a": "Alle Arbeitsverhältnisse werden automatisch beendet und müssen neu verhandelt werden.",
+                "b": "Der neue Betriebsinhaber tritt automatisch in alle bestehenden Arbeitsverhältnisse ein.",
+                "c": "Die ArbeitnehmerInnen können wählen, ob sie zum alten oder neuen Inhaber wechseln.",
+                "d": "Nur Arbeitsverhältnisse mit Zustimmung des Betriebsrats gehen über."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Gemäß § 3 Abs 1 AVRAG tritt der neue Inhaber im Zeitpunkt des Betriebsübergangs automatisch (ex lege) in die Rechte und Pflichten der bestehenden Arbeitsverhältnisse ein.",
+            "source": "Folie 25 [source: 33]"
+        },
+        {
+            "question": "Unter welchen Umständen können ArbeitnehmerInnen dem Übergang ihres Arbeitsverhältnisses beim Betriebsübergang widersprechen? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Wenn der neue Arbeitgeber einen kollektivvertraglichen Bestandschutz nicht übernimmt.",
+                "b": "Wenn der neue Arbeitgeber eine einzelvertragliche Betriebspensionszusage nicht übernimmt.",
+                "c": "Wenn sie generell mit dem neuen Arbeitgeber nicht einverstanden sind.",
+                "d": "Wenn der Betriebsrat dem Übergang widerspricht."
+            },
+            "correctAnswers": ["a", "b"],
+            "explanation": "Ein Widerspruchsrecht besteht laut § 3 Abs 4 AVRAG spezifisch dann, wenn der Erwerber den kollektivvertraglichen Kündigungs- und Entlassungsschutz (Bestandschutz) oder eine einzelvertragliche Betriebspensionszusage nicht übernimmt. Allgemeine Unzufriedenheit oder ein BR-Widerspruch begründen kein individuelles Widerspruchsrecht.",
+            "source": "Folie 26 [source: 34]"
+        },
+        {
+            "question": "Ist eine Kündigung durch den Veräußerer oder Erwerber allein aufgrund des Betriebsübergangs zulässig?",
+            "answers": {
+                "a": "Ja, der Betriebsübergang ist immer ein gültiger Kündigungsgrund.",
+                "b": "Nein, der Betriebsübergang als solcher stellt keinen Kündigungsgrund dar (Art 4 Abs 1 BÜ-RL).",
+                "c": "Nur der Veräußerer darf aus diesem Grund kündigen, nicht der Erwerber.",
+                "d": "Ja, aber nur mit Zustimmung des Betriebsrats."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Gemäß Art 4 Abs 1 BÜ-RL und ständiger Rechtsprechung stellt der Betriebsübergang an sich keinen Kündigungsgrund dar. Kündigungen aus wirtschaftlichen, technischen oder organisatorischen Gründen bleiben aber möglich.",
+            "source": "Folie 27 [source: 35]"
+        },
+        {
+            "question": "Was passiert mit Betriebsvereinbarungen (BV), wenn ein gesamter Betrieb auf einen anderen Inhaber übergeht?",
+            "answers": {
+                "a": "Alle BV werden mit dem Betriebsübergang automatisch ungültig.",
+                "b": "Die Geltung der BV wird durch den Übergang nicht berührt (§ 31 Abs 4 ArbVG).",
+                "c": "Nur BV, die der neue Inhaber bestätigt, bleiben gültig.",
+                "d": "Die BV gelten nur noch für ArbeitnehmerInnen, die bereits vor dem Übergang beschäftigt waren."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Geht ein Betrieb auf einen anderen Inhaber über, wird die Geltung der dort bestehenden Betriebsvereinbarungen gemäß § 31 Abs 4 ArbVG nicht berührt. Sie gelten für den übergegangenen Betrieb weiter.",
+            "source": "Folie 32 [source: 41]"
+        },
+        {
+            "question": "Welche besondere Formvorschrift gilt für die einvernehmliche Auflösung des Arbeitsverhältnisses mit einer schwangeren Arbeitnehmerin?",
+            "answers": {
+                "a": "Mündliche Vereinbarung genügt.",
+                "b": "Schriftform.",
+                "c": "Schriftform und bei Minderjährigen zusätzlich eine Belehrung über den Kündigungsschutz durch AK oder Gericht.",
+                "d": "Notariatsakt."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Für die einvernehmliche Auflösung mit schwangeren Arbeitnehmerinnen ist die Schriftform erforderlich. Ist die Arbeitnehmerin minderjährig, bedarf es zusätzlich einer Bescheinigung über die erfolgte Belehrung über den Kündigungsschutz (§ 10 Abs 7 MSchG).",
+            "source": "Folie 36 [source: 48, 49]"
+        },
+        {
+            "question": "Was besagt die \"Vereinbarungssperre\" nach § 104a ArbVG?",
+            "answers": {
+                "a": "Einvernehmliche Auflösungen sind generell für 2 Tage nach Kündigungsandrohung gesperrt.",
+                "b": "Wenn der AN nachweislich die Beratung mit dem BR verlangt, ist eine einvernehmliche Auflösung innerhalb von 2 Arbeitstagen nicht rechtswirksam möglich.",
+                "c": "Der Betriebsrat kann jede einvernehmliche Auflösung für 2 Tage blockieren.",
+                "d": "Nach einer Kündigung darf 2 Tage lang keine Auflösungsvereinbarung getroffen werden."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Verlangt der Arbeitnehmer/die Arbeitnehmerin nachweislich die Beratung durch den Betriebsrat über die beabsichtigte einvernehmliche Auflösung, so ist eine danach innerhalb von zwei Arbeitstagen geschlossene Auflösungsvereinbarung rechtsunwirksam.",
+            "source": "Folie 38 [source: 52]"
+        },
+        {
+            "question": "Welches Verfahren muss der Arbeitgeber in Betrieben mit Betriebsrat vor Ausspruch einer Kündigung einhalten (§ 105 Abs 1 ArbVG)?",
+            "answers": {
+                "a": "Er muss die Zustimmung des Arbeitnehmers einholen.",
+                "b": "Er muss den Betriebsrat nachträglich informieren.",
+                "c": "Er muss den Betriebsrat vorab verständigen und ihm eine Woche Zeit zur Stellungnahme geben.",
+                "d": "Er muss die Kündigung beim Arbeitsgericht anmelden."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Vor jeder Kündigung ist der Betriebsrat zu verständigen. Dieser hat eine Woche Zeit zur Stellungnahme (oder kann früher Stellung nehmen). Erst danach darf die Kündigung ausgesprochen werden.",
+            "source": "Folie 39 [source: 53]"
+        },
+        {
+            "question": "Welche der folgenden Gründe können eine an sich sozialwidrige Kündigung rechtfertigen? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Häufige Krankenstände mit negativer Zukunftsprognose.",
+                "b": "Der Wegfall des Arbeitsplatzes aufgrund einer Reorganisation, ohne dass eine andere Weiterbeschäftigungsmöglichkeit im Betrieb besteht.",
+                "c": "Der Wunsch des Arbeitgebers, jüngere Mitarbeiter einzustellen.",
+                "d": "Pflichtverletzungen des Arbeitnehmers."
+            },
+            "correctAnswers": ["a", "b", "d"],
+            "explanation": "Eine sozialwidrige Kündigung kann durch Gründe in der Person des Arbeitnehmers (z.B. Krankheit, Leistungsmängel), im Verhalten des Arbeitnehmers (z.B. Pflichtverletzungen) oder durch betriebliche Erfordernisse (z.B. Wegfall des Arbeitsplatzes ohne Weiterbeschäftigungsmöglichkeit) gerechtfertigt sein. Der Wunsch nach jüngeren Mitarbeitern ist kein zulässiger Rechtfertigungsgrund.",
+            "source": "Folie 41 [source: 55]"
+        },
+        {
+            "question": "In welchen der folgenden Situationen muss der Arbeitgeber das AMS gemäß § 45a AMFG (Frühwarnsystem) informieren (Beendigungen innerhalb von 30 Tagen)? (Mehrere Antworten können richtig sein)",
+            "answers": {
+                "a": "Bei Kündigung von 4 ArbeitnehmerInnen in einem Betrieb mit 50 Beschäftigten.",
+                "b": "Bei Kündigung von 6 ArbeitnehmerInnen in einem Betrieb mit 80 Beschäftigten.",
+                "c": "Bei Kündigung von 4 ArbeitnehmerInnen, die alle über 50 Jahre alt sind (Betriebsgröße 30 AN).",
+                "d": "Bei Kündigung von 6 ArbeitnehmerInnen, die alle über 50 Jahre alt sind (Betriebsgröße 30 AN)."
+            },
+            "correctAnswers": ["b", "d"],
+            "explanation": "Die Anzeigepflicht besteht bei: mind. 5 AN (Betrieb 21-99 AN), mind. 5% (Betrieb 100-600 AN), mind. 30 AN (Betrieb >600 AN) ODER mind. 5 AN über 50 J. (unabhängig von Betriebsgröße). Fall (b) erfüllt die Schwelle für Betriebe mit 21-99 AN (mind. 5). Fall (d) erfüllt die Schwelle für AN über 50 J. (mind. 5). Fälle (a) und (c) unterschreiten die jeweiligen Schwellen.",
+            "source": "Folie 43 [source: 57]"
+        },
+        {
+            "question": "Unter welchen Voraussetzungen besteht ein Anspruch auf Abschluss eines Sozialplans bei Betriebsänderungen (§ 109 Abs 3 ArbVG)?",
+            "answers": {
+                "a": "Bei jeder Betriebsänderung, unabhängig von der Betriebsgröße.",
+                "b": "Nur wenn der Betriebsrat dies einstimmig beschließt.",
+                "c": "Wenn der Betrieb mindestens 20 AN beschäftigt und die BÄ wesentliche Nachteile für alle oder erhebliche Teile der Belegschaft mit sich bringt.",
+                "d": "Nur bei einer Betriebsschließung."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Ein erzwingbarer Sozialplan setzt voraus, dass der Betrieb mindestens 20 ArbeitnehmerInnen beschäftigt und die Betriebsänderung wesentliche Nachteile für die gesamte Belegschaft oder erhebliche Teile davon verursacht.",
+            "source": "Folie 49 [source: 65]"
+        },
+         {
+            "question": "Wie lange besteht der Anspruch auf Entgeltfortzahlung bei Krankheit (nicht Arbeitsunfall) für einen Angestellten nach 10 Dienstjahren?",
+            "answers": {
+                "a": "6 Wochen volles Entgelt, 4 Wochen halbes Entgelt.",
+                "b": "8 Wochen volles Entgelt, 4 Wochen halbes Entgelt.",
+                "c": "10 Wochen volles Entgelt, 4 Wochen halbes Entgelt.",
+                "d": "12 Wochen volles Entgelt, 4 Wochen halbes Entgelt."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach dem vollendeten 5. Dienstjahr erhöht sich der Anspruch auf 8 Wochen volles Entgelt, nach dem 15. auf 10 Wochen und nach dem 25. auf 12 Wochen, jeweils zuzüglich 4 Wochen halbes Entgelt. Mit 10 Dienstjahren ist man über dem 5. aber unter dem 15. Jahr, daher 8 Wochen voll.",
+            "source": "Folie 50 [source: 66]"
+        },
+        {
+            "question": "Welche Dauer hat der Anspruch auf Elternkarenz maximal, wenn sich die Eltern die Karenz teilen?",
+            "answers": {
+                "a": "Bis zum vollendeten 1. Lebensjahr des Kindes.",
+                "b": "Bis zum 18. Lebensmonat des Kindes.",
+                "c": "Bis zum 22. Lebensmonat des Kindes.",
+                "d": "Bis zum Ablauf des 2. Lebensjahres des Kindes."
+            },
+            "correctAnswers": ["d"],
+            "explanation": "Der Anspruch auf Elternkarenz besteht maximal bis zum Ablauf des zweiten Lebensjahres des Kindes, wenn beide Elternteile Karenz in Anspruch nehmen (Teilung) oder bei Alleinerziehenden. Nimmt nur ein Elternteil Karenz, endet der Anspruch idR mit dem 22. Lebensmonat.",
+            "source": "Folie 54 [source: 73]"
+        }
+    ]
+}
