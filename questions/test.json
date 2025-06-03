@@ -10,7 +10,7 @@
     ],
     "questions":  [
         {
-            "question": "Was ist die Wurzel aus 100?",
+            "question": "Was ist die Wurzel aus 99?",
             "answers": {
                 "a": "Höhere Fehleranfälligkeit",
                 "b": "Höhere Effizienz des Entscheidungsprozesses",
