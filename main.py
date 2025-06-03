@@ -3,7 +3,7 @@ from build_types import *
 
 def save_result(rObj: ResultObj, args: BuildArgs):
     webpath = args.json_obj["url"] + ".html"
-    with open(f"{script_path}/docs/" +  webpath, "w", encoding="utf-8") as f:
+    with open(f"{script_path}/static/" +  webpath, "w", encoding="utf-8") as f:
         f.write(rObj.str_HTML)
     print(f"Finished writing {args.json_obj["title"]}")
 
@@ -39,7 +39,7 @@ def build_index(quizzes: list[ResultObj]):
     for r in quizzes:
         links.append({"url": r.my_args.json_obj["url"] + ".html", "name": r.my_args.json_obj["title"]})
     index = my_templ.replace(r"{{LINKS_JSON}}", json.dumps(links))
-    with open(f"{script_path}/docs/" +  "index.html", "w", encoding="utf-8") as f:
+    with open(f"{script_path}/static/" +  "index.html", "w", encoding="utf-8") as f:
         f.write(index)
     print("Built index.html")
 
@@ -49,8 +49,8 @@ print(f"Running from {script_path}!")
 TEMPLATES = load_templates()
 
 
-print("Clearing docs directory...")
-for root, dirs, files in os.walk(os.path.join(script_path, f'{script_path}/docs')):
+print("Clearing static directory...")
+for root, dirs, files in os.walk(os.path.join(script_path, f'{script_path}/static')):
     for f in files:
         os.unlink(os.path.join(root, f))
     for d in dirs:
@@ -73,7 +73,7 @@ build_index(quizzes)
 
 print("Copying static files...")
 for f in os.listdir(f"{script_path}/requirements"):
-    shutil.copy(f"{script_path}/requirements/{f}", f"{script_path}/docs/{f}")
+    shutil.copy(f"{script_path}/requirements/{f}", f"{script_path}/static/{f}")
 
 
 print("Finished.")
