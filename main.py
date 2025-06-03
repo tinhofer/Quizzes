@@ -60,6 +60,9 @@ for root, dirs, files in os.walk(os.path.join(script_path, f'{script_path}/stati
             print("WARNING: Could not clear pub dir.")
 
 quizzes = []
+if not os.path.exists(f"{script_path}/static"):
+    os.mkdir(f"{script_path}/static")
+
 for f in os.listdir(f"{script_path}/questions"):
     if not f.endswith(".json"):
         continue
