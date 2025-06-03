@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            const LINKS_STR = '[{"url": "ki_und_arbeitsrecht.html", "name": "Quiz zu KI im HR-Management"}, {"url": "rechtsanpassung_arbeitsrecht_mc.html", "name": "Quiz zur Rechtsanpassung im Arbeitsrecht (Multiple Choice)"}, {"url": "test.html", "name": "KI und Arbeitsrecht Quiz"}]';
+            
+            function run(){
+                let links = JSON.parse(LINKS_STR);
+                
+                let link_elem = document.getElementById("links");
+                console.log(links)
+                for (const l of links){
+                    console.log(l);
+                    let myLink = document.createElement("a");
+                    let li_elem = document.createElement("li")
+                    myLink.href = l.url;
+                    myLink.innerHTML = l.name;
+                    li_elem.appendChild(myLink);
+                    link_elem.appendChild(li_elem);
+                }
+            }
+        </script>
+    </head>
+    <body onload="run()">
+        <ul id="links">
+        </ul>
+    </body>
+</html>
