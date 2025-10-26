@@ -1,0 +1,24 @@
+{
+    "title": "[TITEL]",
+    "type": "simple",
+    "url": "test",
+    "results": [
+        {"t": "Hervorragend!", "e": "🏆"},
+        {"t": "Sehr gut!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung." , "e": "👍"},
+        {"t": "Du solltest noch etwas mehr lernen.", "e": "😉"}
+    ],
+    "questions":  [
+        {
+            "question": "Was ist die Wurzel aus 121?",
+            "answers": {
+                "a": "12",
+                "b": "11.5",
+                "c": "122",
+                "d": "11"
+            },
+            "correctAnswers": ["d"],
+            "explanation": "Taschenrechnung: Die Wurzel aus 121 ist 11."
+        }
+    ]
+}
