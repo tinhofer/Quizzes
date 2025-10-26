@@ -94,15 +94,32 @@ function loadQuestion() {
     }
 }
 
+// Source: https://stackoverflow.com/a/285565
+function findLableForControl(el) {
+   var idVal = el.id;
+   labels = document.getElementsByTagName('label');
+   for( var i = 0; i < labels.length; i++ ) {
+      if (labels[i].htmlFor == idVal)
+           return labels[i];
+   }
+}
+
 // Antwort prüfen
 function checkAnswer() {
     const currentQuestion = questions[currentQuestionIndex];
     const selectedAnswers = [];
     const answerElements = document.querySelectorAll('input[name="answer"]');
+    const correctAnswers = [...currentQuestion.correctAnswers].sort();
 
     answerElements.forEach(answer => {
         if (answer.checked) {
             selectedAnswers.push(answer.value);
+        }
+
+        if(correctAnswers.includes(answer.value)){
+            findLableForControl(answer).classList.add("correct");
+        }else{
+            findLableForControl(answer).classList.add("incorrect");
         }
     });
 
@@ -117,7 +134,7 @@ function checkAnswer() {
     let isPartiallyCorrect = false;
 
     if (selectedAnswers.length > 0) {
-        const correctAnswers = [...currentQuestion.correctAnswers].sort();
+        
         const sortedSelectedAnswers = [...selectedAnswers].sort();
 
         if (sortedSelectedAnswers.every(answer => correctAnswers.includes(answer))) {

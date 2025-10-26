@@ -1,0 +1,23 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - pages
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
+jobs:
+  call-build:
+    uses: ./.github/workflows/run_build.yml
+  call-publish:
+    needs: call-build
+    uses: ./.github/workflows/publish_pages.yml
