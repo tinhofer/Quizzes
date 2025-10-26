@@ -94,6 +94,16 @@ function loadQuestion() {
     }
 }
 
+// Source: https://stackoverflow.com/a/285565
+function findLableForControl(el) {
+   var idVal = el.id;
+   labels = document.getElementsByTagName('label');
+   for( var i = 0; i < labels.length; i++ ) {
+      if (labels[i].htmlFor == idVal)
+           return labels[i];
+   }
+}
+
 // Antwort prüfen
 function checkAnswer() {
     const currentQuestion = questions[currentQuestionIndex];
@@ -107,9 +117,9 @@ function checkAnswer() {
         }
 
         if(correctAnswers.includes(answer.value)){
-            answer.style.color = "green";
+            findLableForControl(answer).classList.add("correct");
         }else{
-            answer.style.color = "red";
+            findLableForControl(answer).classList.add("incorrect");
         }
     });
 
