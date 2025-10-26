@@ -99,10 +99,17 @@ function checkAnswer() {
     const currentQuestion = questions[currentQuestionIndex];
     const selectedAnswers = [];
     const answerElements = document.querySelectorAll('input[name="answer"]');
+    const correctAnswers = [...currentQuestion.correctAnswers].sort();
 
     answerElements.forEach(answer => {
         if (answer.checked) {
             selectedAnswers.push(answer.value);
+        }
+
+        if(correctAnswers.includes(answer.value)){
+            answer.style.color = "green";
+        }else{
+            answer.style.color = "red";
         }
     });
 
@@ -117,7 +124,7 @@ function checkAnswer() {
     let isPartiallyCorrect = false;
 
     if (selectedAnswers.length > 0) {
-        const correctAnswers = [...currentQuestion.correctAnswers].sort();
+        
         const sortedSelectedAnswers = [...selectedAnswers].sort();
 
         if (sortedSelectedAnswers.every(answer => correctAnswers.includes(answer))) {
