@@ -1,0 +1,125 @@
+```json
+{
+    "title": "Erläuterungspflicht bei automatisierter Entscheidung - EuGH C-203/22",
+    "type": "simple",
+    "url": "Automatisierte_Entscheidung",
+    "results": [
+        {"t": "Hervorragend!", "e": "🏆"},
+        {"t": "Sehr gut!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung.", "e": "👍"},
+        {"t": "Du solltest noch etwas mehr lernen.", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Was entschied der EuGH in der Rechtssache Dun & Bradstreet Austria (C-203/22)?",
+            "answers": {
+                "a": "Bonitätsbeurteilungen sind generell unzulässig",
+                "b": "Betroffene haben ein Recht auf verständliche Erläuterung automatisierter Entscheidungen",
+                "c": "Wirtschaftsauskunfteien müssen ihre Algorithmen offenlegen",
+                "d": "Die DSGVO gilt nicht für Bonitätsbewertungen"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Der EuGH stellte fest, dass betroffene Personen ein Recht auf Erläuterung der angewandten Verfahren und Grundsätze sowie des erzielten Ergebnisses in leicht verständlicher Form haben (Art. 15 Abs. 1 lit h DSGVO)."
+        },
+        {
+            "question": "Welche Anforderungen müssen die nach Art. 15 Abs. 1 lit h DSGVO zu erteilenden Informationen erfüllen? (Mehrfachantworten möglich)",
+            "answers": {
+                "a": "Sie müssen präzise sein",
+                "b": "Sie müssen transparent und verständlich sein",
+                "c": "Sie müssen in leicht zugänglicher Form erteilt werden",
+                "d": "Sie müssen den vollständigen Algorithmus enthalten"
+            },
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Nach Art. 12 Abs. 1 DSGVO müssen alle Informationen in 'präziser, transparenter, verständlicher und leicht zugänglicher Form in einer klaren und einfachen Sprache' erteilt werden. Der vollständige Algorithmus muss jedoch nicht offengelegt werden."
+        },
+        {
+            "question": "Welche Voraussetzung muss erfüllt sein, damit Art. 22 DSGVO (Verbot automatisierter Entscheidungen) NICHT anwendbar ist?",
+            "answers": {
+                "a": "Ein Mensch muss formal die Entscheidung treffen, auch ohne echten Entscheidungsspielraum",
+                "b": "Die Entscheidung muss von einem Computerprogramm getroffen werden",
+                "c": "Ein Mensch muss die automatisierte Empfehlung prüfen können und tatsächlich über Entscheidungsspielraum verfügen",
+                "d": "Es genügt, wenn die betroffene Person zustimmt"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Nach den EDSA-Leitlinien darf es sich nicht um eine 'symbolische Geste' handeln. Die zuständige Person muss befugt und befähigt sein, die Entscheidung zu ändern, und über alle maßgeblichen Informationen verfügen."
+        },
+        {
+            "question": "Welche Faktoren können eine unkritische Übernahme automatisierter Empfehlungen begünstigen? (Mehrfachantworten möglich)",
+            "answers": {
+                "a": "Automation Bias (Wahrnehmung von Computern als objektiv)",
+                "b": "Knappe zeitliche Ressourcen",
+                "c": "Mangelnde personelle Ressourcen",
+                "d": "Ausreichende Schulung der Entscheider"
+            },
+            "correctAnswers": ["a", "b", "c"],
+            "explanation": "Der Automation Bias (falsche Wahrnehmung von Objektivität), knappe zeitliche und personelle Ressourcen sowie mangelndes Verständnis des Systems können dazu führen, dass automatisierte Empfehlungen unkritisch übernommen werden ('rubber-stamping'). Ausreichende Schulung würde dies hingegen verhindern."
+        },
+        {
+            "question": "Was ist eine 'kontrafaktische Erklärung' im Kontext erklärbarer KI?",
+            "answers": {
+                "a": "Eine Erklärung, die beweist, dass die Entscheidung falsch war",
+                "b": "Eine Methode, die aufzeigt, welche geringstmöglichen Änderungen zu einem anderen Ergebnis geführt hätten",
+                "c": "Eine nachträgliche Rechtfertigung einer getroffenen Entscheidung",
+                "d": "Eine Darstellung aller verwendeten Fakten"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Eine kontrafaktische Erklärung zeigt, welche geringstmöglichen Änderungen an den Eingabedaten zu einem bestimmten anderen Ergebnis geführt hätten, z.B. 'Wenn Ihr Einkommen um 300 Euro höher wäre, hätten Sie den Kredit erhalten.'"
+        },
+        {
+            "question": "Unter welchen Voraussetzungen sind automatisierte Personalentscheidungen nach Art. 22 Abs. 2 DSGVO ausnahmsweise zulässig?",
+            "answers": {
+                "a": "Nur wenn eine Einwilligung vorliegt",
+                "b": "Wenn sie für Vertragserfüllung erforderlich sind, auf Rechtsvorschriften beruhen oder eine ausdrückliche Einwilligung vorliegt",
+                "c": "Wenn sie von einem teuren KI-System getroffen werden",
+                "d": "Automatisierte Personalentscheidungen sind generell verboten"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Art. 22 Abs. 2 DSGVO nennt drei Ausnahmen: (a) Erforderlichkeit für Vertragsabschluss/-erfüllung, (b) Rechtsvorschriften der Union oder Mitgliedstaaten (inkl. Betriebsvereinbarungen) oder (c) ausdrückliche Einwilligung."
+        },
+        {
+            "question": "Welche Rechtsvorschriften sind beim Einsatz von KI-Tools im Personalmanagement besonders zu beachten? (Mehrfachantworten möglich)",
+            "answers": {
+                "a": "Die DSGVO (Datenschutz-Grundverordnung)",
+                "b": "Die KI-Verordnung (KI-VO)",
+                "c": "Das Antidiskriminierungsrecht (GlBG, BEinstG)",
+                "d": "Die Mitwirkungsrechte des Betriebsrats"
+            },
+            "correctAnswers": ["a", "b", "c", "d"],
+            "explanation": "Beim Einsatz von KI-Tools im Personalmanagement sind neben den Mitwirkungsrechten des Betriebsrats insbesondere die strikten Vorgaben der DSGVO, der KI-VO und des Antidiskriminierungsrechts (GlBG, BEinstG) zu beachten."
+        },
+        {
+            "question": "Wie entschied der EuGH zur Berufung auf Geschäftsgeheimnisse bei der Auskunftspflicht nach Art. 15 DSGVO?",
+            "answers": {
+                "a": "Geschäftsgeheimnisse rechtfertigen eine vollständige Auskunftsverweigerung",
+                "b": "§ 4 Abs. 6 DSG geht der DSGVO vor",
+                "c": "Die Behörde/das Gericht muss eine Interessenabwägung vornehmen; generelle Regelungen wie § 4 Abs. 6 DSG stehen Art. 15 DSGVO entgegen",
+                "d": "Geschäftsgeheimnisse spielen keine Rolle"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Der EuGH stellte fest, dass eine Interessenabwägung im Einzelfall erforderlich ist. Die österreichische Regelung in § 4 Abs. 6 DSG, wonach 'in der Regel' kein Auskunftsrecht besteht, steht Art. 15 Abs. 1 lit h DSGVO entgegen."
+        },
+        {
+            "question": "Was versteht man unter 'Automation Bias'?",
+            "answers": {
+                "a": "Die Tendenz von Computern, fehlerhafte Entscheidungen zu treffen",
+                "b": "Das soziale Phänomen, dass Computer als objektiv wahrgenommen werden und ihre Entscheidungen weniger hinterfragt werden",
+                "c": "Die Bevorzugung automatisierter gegenüber manuellen Prozessen",
+                "d": "Eine technische Fehlfunktion bei KI-Systemen"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Automation Bias bezeichnet das soziale Phänomen, dass Computer von vielen Menschen als objektiv und neutral wahrgenommen werden, was dazu führt, dass algorithmische Entscheidungen weniger hinterfragt werden als menschliche ('rubber-stamping')."
+        },
+        {
+            "question": "Was war der Kern des Rechtsstreits im Fall C.K. gegen Dun & Bradstreet Austria?",
+            "answers": {
+                "a": "Die Höhe der Mobilfunkgebühren",
+                "b": "Die Verweigerung eines Mobilfunkvertrags aufgrund einer negativen Bonitätsbewertung und die unzureichende Erläuterung dieser Entscheidung",
+                "c": "Die Speicherung personenbezogener Daten ohne Einwilligung",
+                "d": "Die Weitergabe von Daten an Dritte"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "C.K. wurde der Abschluss eines Mobilfunkvertrags (monatlich 10 Euro) aufgrund einer Bonitätsbeurteilung verweigert. Sie verlangte daraufhin Auskunft über das Zustandekommen der automatisierten Entscheidung, die D&B nicht ausreichend erteilte - dies führte zum jahrelangen Rechtsstreit."
+        }
+    ]
+}
+```
