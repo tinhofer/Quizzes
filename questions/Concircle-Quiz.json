@@ -1,39 +1,39 @@
 
 {
-    "title": "Gleichbehandlung im IT-Unternehmen – Testen Sie Ihre Intuition!",
+    "title": "Gleichbehandlung im IT-Unternehmen – Teste deine Intuition!",
     "type": "simple",
     "url": "Gleichbehandlungsrecht_Quiz",
     "results": [
-        {"t": "Hervorragend! Sie haben ein ausgezeichnetes Gespür für Gleichbehandlungsfragen!", "e": "🏆"},
-        {"t": "Sehr gut! Sie liegen bei den meisten Fragen richtig.", "e": "🎓"},
-        {"t": "Gut gemacht! Das Seminar wird Ihnen helfen, noch sicherer zu werden.", "e": "👍"},
+        {"t": "Hervorragend! Du hast ein ausgezeichnetes Gespür für Gleichbehandlungsfragen!", "e": "🏆"},
+        {"t": "Sehr gut! Du liegst bei den meisten Fragen richtig.", "e": "🎓"},
+        {"t": "Gut gemacht! Das Seminar wird dir helfen, noch sicherer zu werden.", "e": "👍"},
         {"t": "Kein Problem – genau dafür sind wir heute hier. Nach dem Seminar sehen die Antworten ganz anders aus!", "e": "😉"}
     ],
     "questions": [
         {
-            "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung.\" Ist diese Formulierung rechtlich problematisch?",
+            "question": "Ihr sucht einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung.\" Ist diese Formulierung rechtlich problematisch?",
             "answers": {
                 "a": "Nein, das ist eine neutrale Anforderung",
                 "b": "Ja, wegen der männlichen Form ('Entwickler')",
                 "c": "Ja, sowohl wegen der männlichen Form als auch wegen der Berufserfahrung",
                 "d": "Nur problematisch, wenn sich keine Männer bewerben"
             },
-            "correctAnswers": ["c"],
-            "explanation": "Die ausschließlich männliche Form verstößt gegen das Gebot der geschlechtsneutralen Formulierung (§ 9 GlBG). Zudem kann die Anforderung von 10 Jahren Berufserfahrung eine mittelbare Diskriminierung wegen des Alters darstellen, wenn sie nicht sachlich gerechtfertigt ist."
+            "correctAnswers": ["b"],
+            "explanation": "Die ausschließlich männliche Form verstößt gegen das Gebot der geschlechtsneutralen Formulierung (§ 9 GlBG)."
         },
         {
-            "question": "Zwei Ihrer Mitarbeiter (Mann und Frau) arbeiten seit 3 Jahren in derselben Position mit vergleichbaren Aufgaben. Der Mann verdient 15% mehr, weil er beim Eintritt besser verhandelt hat. Ist das zulässig?",
+            "question": "Zwei Mitarbeitende (Mann und Frau) arbeiten seit 3 Jahren in derselben Position mit vergleichbaren Aufgaben. Der Mann verdient 15% mehr, weil er beim Eintritt besser verhandelt hat. Ist das zulässig?",
             "answers": {
                 "a": "Ja, Verhandlungsgeschick ist ein legitimer Grund für Gehaltsunterschiede",
-                "b": "Nein, das Geschlecht spielt keine Rolle – entscheidend ist nur die gleiche Tätigkeit",
+                "b": "Nein, bei gleichwertiger Arbeit gebührt Frauen und Männern das gleiche Entgelt",
                 "c": "Ja, wenn beide die Möglichkeit hatten zu verhandeln",
                 "d": "Es kommt darauf an, ob man den Unterschied sachlich begründen kann"
             },
             "correctAnswers": ["d"],
-            "explanation": "Nach § 3 GlBG ist Entgeltdiskriminierung verboten. Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
+            "explanation": "Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
         },
         {
-            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: 'Planen Sie in nächster Zeit eine Familie zu gründen?' Dürfen Sie das?",
+            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragst du: 'Planen Sie in nächster Zeit eine Familie zu gründen?' Ist diese Frage zulässig?",
             "answers": {
                 "a": "Ja, wenn es für die Personalplanung relevant ist",
                 "b": "Nein, das ist grundsätzlich unzulässig",
@@ -41,7 +41,7 @@
                 "d": "Nur mit Einverständnis der Bewerberin"
             },
             "correctAnswers": ["b"],
-            "explanation": "Nach § 18 GlBG ist es verboten, vor Begründung eines Arbeitsverhältnisses Fragen zum Familienstand oder zur Familienplanung zu stellen. Dies gilt unabhängig davon, ob die Frage auch an Männer gestellt würde. Die Bewerberin dürfte sogar wahrheitswidrig antworten (sog. 'Recht zur Lüge')."
+            "explanation": "Es ist grundsätzlich verboten, vor Begründung eines Arbeitsverhältnisses Fragen zum Familienstand oder zur Familienplanung zu stellen. Dies gilt unabhängig davon, ob die Frage auch an Männer gestellt würde. Die Bewerberin dürfte sogar wahrheitswidrig antworten (sog. 'Recht zur Lüge')."
         },
         {
             "question": "Sie führen eine Regelung ein, dass alle Team-Meetings zwischen 17:00 und 19:00 Uhr stattfinden, um die Kernarbeitszeit nicht zu belasten. Kann das diskriminierend sein?",
@@ -52,7 +52,7 @@
                 "d": "Nein, solange Homeoffice möglich ist"
             },
             "correctAnswers": ["b"],
-            "explanation": "Dies ist ein klassischer Fall mittelbarer Diskriminierung nach § 19 Z 2 GlBG. Eine scheinbar neutrale Regelung kann diskriminierend sein, wenn sie bestimmte Gruppen (hier: Personen mit Betreuungspflichten, überwiegend Frauen) besonders benachteiligt, ohne dass dies sachlich gerechtfertigt ist."
+            "explanation": "Dies ist ein klassischer Fall mittelbarer Diskriminierung. Eine scheinbar neutrale Regelung kann diskriminierend sein, wenn sie bestimmte geschützten AN-Gruppen (hier: Frauen, weil diese überwiegend die Kinderbetreuung übernehmen) besonders benachteiligt, ohne dass dies sachlich gerechtfertigt ist."
         },
         {
             "question": "Ein Muslim möchte während der Arbeitszeit Gebetspausen einlegen. Ein anderer Mitarbeiter trägt ein sichtbares Kreuz. Müssen Sie beides erlauben oder können Sie beides verbieten?",
@@ -122,6 +122,7 @@
         }
     ]
 }
+
 
 
 
