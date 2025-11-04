@@ -1,0 +1,124 @@
+
+{
+    "title": "Gleichbehandlung im IT-Unternehmen – Testen Sie Ihre Intuition!",
+    "type": "simple",
+    "url": "Gleichbehandlungsrecht_Quiz",
+    "results": [
+        {"t": "Hervorragend! Sie haben ein ausgezeichnetes Gespür für Gleichbehandlungsfragen!", "e": "🏆"},
+        {"t": "Sehr gut! Sie liegen bei den meisten Fragen richtig.", "e": "🎓"},
+        {"t": "Gut gemacht! Das Seminar wird Ihnen helfen, noch sicherer zu werden.", "e": "👍"},
+        {"t": "Kein Problem – genau dafür sind wir heute hier. Nach dem Seminar sehen die Antworten ganz anders aus!", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung." Ist diese Formulierung rechtlich problematisch?",
+            "answers": {
+                "a": "Nein, das ist eine neutrale Anforderung",
+                "b": "Ja, wegen der männlichen Form („Entwickler")",
+                "c": "Ja, sowohl wegen der männlichen Form als auch wegen der Berufserfahrung",
+                "d": "Nur problematisch, wenn sich keine Männer bewerben"
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Die ausschließlich männliche Form verstößt gegen das Gebot der geschlechtsneutralen Formulierung (§ 9 GlBG). Zudem kann die Anforderung von 10 Jahren Berufserfahrung eine mittelbare Diskriminierung wegen des Alters darstellen, wenn sie nicht sachlich gerechtfertigt ist."
+        },
+        {
+            "question": "Zwei Ihrer Mitarbeiter (Mann und Frau) arbeiten seit 3 Jahren in derselben Position mit vergleichbaren Aufgaben. Der Mann verdient 15% mehr, weil er beim Eintritt besser verhandelt hat. Ist das zulässig?",
+            "answers": {
+                "a": "Ja, Verhandlungsgeschick ist ein legitimer Grund für Gehaltsunterschiede",
+                "b": "Nein, das Geschlecht spielt keine Rolle – entscheidend ist nur die gleiche Tätigkeit",
+                "c": "Ja, wenn beide die Möglichkeit hatten zu verhandeln",
+                "d": "Es kommt darauf an, ob man den Unterschied sachlich begründen kann"
+            },
+            "correctAnswers": ["d"],
+            "explanation": "Nach § 3 GlBG ist Entgeltdiskriminierung verboten. Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
+        },
+        {
+            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: „Planen Sie in nächster Zeit eine Familie zu gründen?" Dürfen Sie das?",
+            "answers": {
+                "a": "Ja, wenn es für die Personalplanung relevant ist",
+                "b": "Nein, das ist grundsätzlich unzulässig",
+                "c": "Ja, wenn Sie auch männliche Bewerber das Gleiche fragen",
+                "d": "Nur mit Einverständnis der Bewerberin"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach § 18 GlBG ist es verboten, vor Begründung eines Arbeitsverhältnisses Fragen zum Familienstand oder zur Familienplanung zu stellen. Dies gilt unabhängig davon, ob die Frage auch an Männer gestellt würde. Die Bewerberin dürfte sogar wahrheitswidrig antworten (sog. 'Recht zur Lüge')."
+        },
+        {
+            "question": "Sie führen eine Regelung ein, dass alle Team-Meetings zwischen 17:00 und 19:00 Uhr stattfinden, um die Kernarbeitszeit nicht zu belasten. Kann das diskriminierend sein?",
+            "answers": {
+                "a": "Nein, die Regel gilt für alle gleich",
+                "b": "Ja, wenn dadurch bestimmte Gruppen (z.B. Eltern) benachteiligt werden",
+                "c": "Nur wenn sich jemand beschwert",
+                "d": "Nein, solange Homeoffice möglich ist"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Dies ist ein klassischer Fall mittelbarer Diskriminierung nach § 19 Z 2 GlBG. Eine scheinbar neutrale Regelung kann diskriminierend sein, wenn sie bestimmte Gruppen (hier: Personen mit Betreuungspflichten, überwiegend Frauen) besonders benachteiligt, ohne dass dies sachlich gerechtfertigt ist."
+        },
+        {
+            "question": "Ein Muslim möchte während der Arbeitszeit Gebetspausen einlegen. Ein anderer Mitarbeiter trägt ein sichtbares Kreuz. Müssen Sie beides erlauben oder können Sie beides verbieten?",
+            "answers": {
+                "a": "Sie müssen beides erlauben",
+                "b": "Sie können beides verbieten, wenn betriebliche Gründe vorliegen",
+                "c": "Sie müssen das Kreuz erlauben, können aber Gebetspausen ablehnen",
+                "d": "Sie müssen unterscheiden: sichtbare Symbole ja, religiöse Praktiken nein"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach der EuGH-Rechtsprechung können Arbeitgeber aus betrieblichen Gründen (z.B. Neutralitätsgebot gegenüber Kunden) religiöse Symbole verbieten, wenn dies alle Religionen gleichermaßen betrifft. Bei Gebetspausen ist eine angemessene Berücksichtigung religiöser Bedürfnisse erforderlich, soweit keine unverhältnismäßige Belastung entsteht."
+        },
+        {
+            "question": "Sie bevorzugen bei einer Einstellung bewusst den 28-jährigen Bewerber gegenüber der 52-jährigen Bewerberin, weil „jüngere Mitarbeiter besser ins Team passen". Ist das zulässig?",
+            "answers": {
+                "a": "Ja, Teamfit ist ein wichtiges Einstellungskriterium",
+                "b": "Nein, das ist Altersdiskriminierung",
+                "c": "Ja, wenn das Team tatsächlich jung ist",
+                "d": "Kommt darauf an, ob die jüngere Person besser qualifiziert ist"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Das ist ein klarer Fall von Altersdiskriminierung nach § 19 Z 1 GlBG. 'Teamfit' oder 'jüngeres Team' sind keine sachlichen Rechtfertigungsgründe. Die Entscheidung muss auf objektiven, berufsbezogenen Kriterien basieren (Qualifikation, Erfahrung, Fähigkeiten)."
+        },
+        {
+            "question": "Bei einem Teammeeting macht ein Mitarbeiter einen Witz über das Aussehen einer Kollegin. Alle lachen, auch die Kollegin. Sie als GF sind nicht anwesend, erfahren aber später davon. Müssen Sie reagieren?",
+            "answers": {
+                "a": "Nein, wenn alle mitgelacht haben, ist es okay",
+                "b": "Ja, Sie haben eine Fürsorgepflicht und müssen bei Belästigung einschreiten",
+                "c": "Nur wenn die Kollegin sich beschwert",
+                "d": "Nein, das ist Privatsache des Teams"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach § 26 GlBG haben Arbeitgeber eine Schutz- und Fürsorgepflicht. Sie müssen geeignete Maßnahmen zum Schutz vor Belästigung treffen. Dass die Kollegin mitlachte, ist nicht entscheidend – oft geschieht dies aus Verlegenheit. Sie müssen klare Grenzen setzen, um ein diskriminierungsfreies Arbeitsumfeld zu gewährleisten."
+        },
+        {
+            "question": "Ein Mitarbeiter mit Rückenproblemen beantragt einen höhenverstellbaren Schreibtisch (Kosten: €800). Müssen Sie das bezahlen?",
+            "answers": {
+                "a": "Nein, das ist Privatsache des Mitarbeiters",
+                "b": "Ja, wenn es sich um eine Behinderung im rechtlichen Sinn handelt",
+                "c": "Nur wenn das Sozialministeriumservice (SMS) die Kosten übernimmt",
+                "d": "Nur bei Schwerbehinderung"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach § 6 BEinstG müssen Arbeitgeber 'angemessene Vorkehrungen' treffen, um Menschen mit Behinderungen die Teilhabe am Arbeitsleben zu ermöglichen. Ein höhenverstellbarer Schreibtisch für €800 ist in der Regel eine verhältnismäßige Maßnahme. Eine Förderung durch das SMS ist möglich, aber nicht Voraussetzung für die Verpflichtung."
+        },
+        {
+            "question": "Sie besetzen eine Führungsposition intern. Zwei Kandidaten sind gleich qualifiziert – ein Mann und eine Frau. In der Führungsebene sind bereits 80% Männer. Dürfen Sie gezielt die Frau bevorzugen?",
+            "answers": {
+                "a": "Ja, um das Geschlechterverhältnis auszugleichen",
+                "b": "Nein, das wäre „umgekehrte Diskriminierung"",
+                "c": "Ja, aber nur wenn Sie das transparent kommunizieren",
+                "d": "Es kommt auf die Gesamtumstände an"
+            },
+            "correctAnswers": ["d"],
+            "explanation": "Nach § 5 GlBG sind Maßnahmen zur Förderung der Gleichstellung zulässig ('positive Maßnahmen'). Bei gleicher Qualifikation darf die unterrepräsentierte Gruppe bevorzugt werden, wenn keine zwingenden Gründe für den anderen Kandidaten sprechen (§ 11b B-GlBG für Bund). Dies muss aber im Einzelfall geprüft werden – eine automatische Quote ohne Einzelfallprüfung wäre unzulässig."
+        },
+        {
+            "question": "Eine Bewerberin klagt erfolgreich wegen Diskriminierung im Bewerbungsverfahren, obwohl sie für die Stelle objektiv ungeeignet war. Was droht dem Unternehmen?",
+            "answers": {
+                "a": "Nichts, da sie ohnehin nicht geeignet war",
+                "b": "Schadenersatz von bis zu 2 Monatsgehältern",
+                "c": "Sie muss eingestellt werden",
+                "d": "Nur eine Verwarnung beim ersten Mal"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nach § 12 Abs 8 GlBG kann bei Diskriminierung im Bewerbungsverfahren ein Schadenersatz von mindestens 500 Euro bis maximal 2 Monatsgehältern zugesprochen werden – und zwar unabhängig davon, ob die Person geeignet war. Die Diskriminierung liegt im Verfahren selbst (z.B. unzulässige Fragen, diskriminierende Stellenausschreibung)."
+        }
+    ]
+}
