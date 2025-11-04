@@ -11,7 +11,7 @@
     ],
     "questions": [
         {
-            "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung." Ist diese Formulierung rechtlich problematisch?",
+            "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung.\" Ist diese Formulierung rechtlich problematisch?",
             "answers": {
                 "a": "Nein, das ist eine neutrale Anforderung",
                 "b": "Ja, wegen der männlichen Form („Entwickler")",
@@ -122,3 +122,4 @@
         }
     ]
 }
+
