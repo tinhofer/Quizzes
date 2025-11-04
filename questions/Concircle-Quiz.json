@@ -33,7 +33,7 @@
             "explanation": "Nach § 3 GlBG ist Entgeltdiskriminierung verboten. Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
         },
         {
-            "question": 'Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: „Planen Sie in nächster Zeit eine Familie zu gründen?" Dürfen Sie das?',
+            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: 'Planen Sie in nächster Zeit eine Familie zu gründen?' Dürfen Sie das?",
             "answers": {
                 "a": "Ja, wenn es für die Personalplanung relevant ist",
                 "b": "Nein, das ist grundsätzlich unzulässig",
@@ -66,7 +66,7 @@
             "explanation": "Nach der EuGH-Rechtsprechung können Arbeitgeber aus betrieblichen Gründen (z.B. Neutralitätsgebot gegenüber Kunden) religiöse Symbole verbieten, wenn dies alle Religionen gleichermaßen betrifft. Bei Gebetspausen ist eine angemessene Berücksichtigung religiöser Bedürfnisse erforderlich, soweit keine unverhältnismäßige Belastung entsteht."
         },
         {
-            "question": "Sie bevorzugen bei einer Einstellung bewusst den 28-jährigen Bewerber gegenüber der 52-jährigen Bewerberin, weil „jüngere Mitarbeiter besser ins Team passen". Ist das zulässig?",
+            "question": "Sie bevorzugen bei einer Einstellung bewusst den 28-jährigen Bewerber gegenüber der 52-jährigen Bewerberin, weil 'jüngere Mitarbeiter besser ins Team passen'. Ist das zulässig?",
             "answers": {
                 "a": "Ja, Teamfit ist ein wichtiges Einstellungskriterium",
                 "b": "Nein, das ist Altersdiskriminierung",
@@ -122,5 +122,6 @@
         }
     ]
 }
+
 
 
