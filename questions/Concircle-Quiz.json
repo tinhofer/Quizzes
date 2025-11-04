@@ -14,7 +14,7 @@
             "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung.\" Ist diese Formulierung rechtlich problematisch?",
             "answers": {
                 "a": "Nein, das ist eine neutrale Anforderung",
-                "b": "Ja, wegen der männlichen Form („Entwickler")",
+                "b": "Ja, wegen der männlichen Form ('Entwickler')",
                 "c": "Ja, sowohl wegen der männlichen Form als auch wegen der Berufserfahrung",
                 "d": "Nur problematisch, wenn sich keine Männer bewerben"
             },
@@ -33,7 +33,7 @@
             "explanation": "Nach § 3 GlBG ist Entgeltdiskriminierung verboten. Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
         },
         {
-            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: „Planen Sie in nächster Zeit eine Familie zu gründen?" Dürfen Sie das?",
+            "question": 'Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: „Planen Sie in nächster Zeit eine Familie zu gründen?" Dürfen Sie das?',
             "answers": {
                 "a": "Ja, wenn es für die Personalplanung relevant ist",
                 "b": "Nein, das ist grundsätzlich unzulässig",
@@ -122,4 +122,5 @@
         }
     ]
 }
+
 
