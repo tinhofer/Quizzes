@@ -102,7 +102,7 @@
             "question": "Sie besetzen eine Führungsposition intern. Zwei Kandidaten sind gleich qualifiziert – ein Mann und eine Frau. In der Führungsebene sind bereits 80% Männer. Dürfen Sie gezielt die Frau bevorzugen?",
             "answers": {
                 "a": "Ja, um das Geschlechterverhältnis auszugleichen",
-                "b": "Nein, das wäre „umgekehrte Diskriminierung"",
+                "b": 'Nein, das wäre „umgekehrte Diskriminierung"',
                 "c": "Ja, aber nur wenn Sie das transparent kommunizieren",
                 "d": "Es kommt auf die Gesamtumstände an"
             },
@@ -122,6 +122,7 @@
         }
     ]
 }
+
 
 
 
