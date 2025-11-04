@@ -1,0 +1,116 @@
+{
+    "title": "Gleichbehandlung und Entgelttransparenz",
+    "type": "simple",
+    "url": "Gleichbehandlung_Entgelttransparenz",
+    "results": [
+        {"t": "Hervorragend!", "e": "🏆"},
+        {"t": "Sehr gut!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung.", "e": "👍"},
+        {"t": "Du solltest noch etwas mehr lernen.", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Was beschreibt der unbereinigte Gender Pay Gap (GPG) in der Europäischen Union (EU)?",
+            "answers": {
+                "a": "Die Gehaltsdifferenz zwischen Männern und Frauen mit gleicher Qualifikation und Erfahrung.",
+                "b": "Die Differenz zwischen dem durchschnittlichen Bruttostundenverdienst von männlichen und weiblichen Beschäftigten, ausgedrückt in Prozent des durchschnittlichen Bruttostundenverdienstes männlicher Beschäftigter.",
+                "c": "Die Differenz zwischen den Nettomonatsgehältern von Männern und Frauen."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Der unbereinigte GPG liegt in der EU im Schnitt bei etwa 16% und kombiniert die Auswirkungen möglicher direkter Diskriminierung mit strukturellen Unterschieden (z. B. Teilzeitarbeit)."
+        },
+        {
+            "question": "Ihr Unternehmen beschäftigt etwa 100 Mitarbeiter. Welche neue Pflicht trifft Sie ab Umsetzung der EU-Entgelttransparenz-Richtlinie (ET-RL) voraussichtlich (neben allgemeinen Transparenzpflichten) in Bezug auf das Entgeltgefälle?",
+            "answers": {
+                "a": "Das Unternehmen muss ab 2026 keine Pflichten erfüllen, da die Richtlinie nur für Unternehmen mit über 250 Mitarbeitern gilt.",
+                "b": "Sie müssen regelmäßig über das geschlechtsspezifische Entgeltgefälle berichten.",
+                "c": "Wenn Ihr Entgeltgefälle in einer Gruppe gleicher/gleichwertiger Arbeit mindestens 5 % beträgt und nicht objektiv gerechtfertigt werden kann, muss eine gemeinsame Entgeltbewertung mit Arbeitnehmervertretern durchgeführt werden."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Unternehmen mit mindestens 100 Mitarbeitern sind zur regelmäßigen Berichterstattung verpflichtet. Das IT-Unternehmen mit 100 AN fällt in diesen Bereich. Wenn dann ein Gefälle von 5 % oder mehr vorliegt, das nicht gerechtfertigt ist, muss eine gemeinsame Entgeltbewertung erfolgen."
+        },
+        {
+            "question": "Ein Geschäftsführer führt ein Bewerbungsgespräch. Welche Information darf er vom Bewerber nach der EU-Entgelttransparenz-Richtlinie (ET-RL) nicht aktiv einholen?",
+            "answers": {
+                "a": "Informationen über die Qualifikationen und Berufserfahrung des Bewerbers.",
+                "b": "Informationen über das Einstiegsentgelt oder die Entgeltspanne für die ausgeschriebene Stelle.",
+                "c": "Informationen über die Entgeltentwicklung in den laufenden oder früheren Beschäftigungsverhältnissen des Bewerbers."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Arbeitgeber dürfen Bewerber nicht nach ihrer bisherigen Entgeltentwicklung befragen. Sie müssen Bewerber jedoch über das Einstiegsentgelt oder die Spanne für die Stelle informieren."
+        },
+        {
+            "question": "Im Rahmen des Antidiskriminierungsrechts sind bestimmte Merkmale (Schutzgründe) geschützt. Welche der folgenden Merkmale sind in Österreich im Zusammenhang mit einem Dienstverhältnis u. a. geschützt?",
+            "answers": {
+                "a": "Geschlecht",
+                "b": "Religion oder Weltanschauung",
+                "c": "Ethnische Zugehörigkeit",
+                "d": "Alter",
+                "e": "Sexuelle Orientierung"
+            },
+            "correctAnswers": ["a", "b", "c", "d", "e"],
+            "explanation": "Alle genannten Merkmale sind Schutzgründe, die in Österreich im Zusammenhang mit einem Dienst- oder Ausbildungsverhältnis vor Diskriminierung schützen (§ 13 Abs 1 B-GlBG, § 3 GlBG)."
+        },
+        {
+            "question": "Das Gleichbehandlungsgesetz (GlBG) unterscheidet zwischen unmittelbarer und mittelbarer Diskriminierung. Wann liegt eine mittelbare Diskriminierung vor?",
+            "answers": {
+                "a": "Wenn eine Person aufgrund eines geschützten Merkmals (z. B. Geschlecht) in einer vergleichbaren Situation schlechter behandelt wird als eine andere Person.",
+                "b": "Wenn eine Führungskraft eine diskriminierende Anweisung erteilt, die ein geschütztes Merkmal betrifft.",
+                "c": "Wenn eine ihrem Inhalt nach neutrale Regelung (z. B. ein Einstellungskriterium) Angehörige einer geschützten Gruppe in besonderer Weise benachteiligt oder benachteiligen kann, ohne dass dies sachlich gerechtfertigt ist."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Die mittelbare Diskriminierung zeichnet sich dadurch aus, dass die Regelung auf den ersten Blick neutral erscheint, in der Praxis aber eine bestimmte geschützte Gruppe (z. B. aufgrund der Religion) überproportional benachteiligt."
+        },
+        {
+            "question": "Das IT-Unternehmen verwendet ein internes Bewertungskriterium, das Sozialkompetenzen (wie Teamfähigkeit, Kommunikationsstärke, Konfliktmanagement) im Vergleich zu technischen oder physischen Anforderungen (wie Heben schwerer Server) bei der Festlegung des Entgelts geringer bewertet. Welche Aussage ist zutreffend?",
+            "answers": {
+                "a": "Dies ist immer zulässig, solange das Kriterium für alle Mitarbeiter gilt und kein direkter Verweis auf das Geschlecht besteht.",
+                "b": "Dies kann eine mittelbare Diskriminierung darstellen, da Systeme zur beruflichen Einstufung diskriminierend sein können, wenn sie von Frauen dominierte Berufe oder Qualifikationen unterbewerten.",
+                "c": "Nur die Heranziehung von Kriterien, die auf Körperkraft abstellen, kann eine Diskriminierung begründen."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Entgeltstrukturen müssen auf objektiven, geschlechtsneutralen Kriterien beruhen. Insbesondere dürfen relevante soziale Kompetenzen nicht unterbewertet werden. Systeme, die traditionelle Geschlechterstereotype anwenden und von Frauen dominierte Berufe oder Qualifikationen unterbewerten, können eine mittelbare Diskriminierung darstellen."
+        },
+        {
+            "question": "Eine Mitarbeiterin beschwert sich, dass sie im Betrieb mehrfach unerwünschte, abfällige Bemerkungen über ihre sexuelle Orientierung von einem Kollegen hören musste, was sie zutiefst beleidigt. Welche rechtliche Kategorie ist hier betroffen?",
+            "answers": {
+                "a": "Dies fällt unter das freie Meinungsspektrum und ist im Rahmen der Vertragsfreiheit nicht relevant.",
+                "b": "Dies stellt eine Belästigung dar, die als Diskriminierung gilt.",
+                "c": "Der Arbeitgeber ist nur dann haftbar, wenn er selbst die Bemerkungen gemacht hat."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Unerwünschte Verhaltensweisen, die im Zusammenhang mit einem geschützten Merkmal (hier: sexuelle Orientierung) stehen und bezwecken oder bewirken, dass die Würde der Person verletzt und ein einschüchterndes, beleidigendes oder demütigendes Umfeld geschaffen wird, sind Belästigungen, die als Diskriminierung gelten. Der Arbeitgeber, der keine Abhilfe schafft, haftet für eigenes schuldhaftes Verhalten."
+        },
+        {
+            "question": "Eine interne Dienstanweisung untersagt allen Mitarbeitern im Kundenkontakt das Tragen von sichtbaren Zeichen politischer oder religiöser Überzeugungen (Neutralitätspolitik). Welche Aussage(n) zur Zulässigkeit dieser Maßnahme ist/sind nach der Rechtsprechung des Europäischen Gerichtshofs (EuGH) korrekt?",
+            "answers": {
+                "a": "Diese Neutralitätspolitik ist immer eine unzulässige unmittelbare Diskriminierung, weil sie gläubige Mitarbeiter betrifft.",
+                "b": "Die Regelung stellt keine unmittelbare Diskriminierung dar, wenn sie allgemein und unterschiedslos angewandt wird.",
+                "c": "Die Regelung kann eine mittelbare Diskriminierung aufgrund der Religion oder Weltanschauung darstellen, die aber durch ein 'wirkliches Bedürfnis' des Arbeitgebers (z. B. berechtigte Kundenerwartungen) sachlich gerechtfertigt werden kann."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Eine allgemein und unterschiedslos angewandte Neutralitätspolitik ist keine unmittelbare Diskriminierung, da sie sich nicht auf ein untrennbar mit der Religion verbundenes Kriterium stützt. Sie kann jedoch eine mittelbare Diskriminierung darstellen, die eine Rechtfertigung durch ein legitimes Ziel (wie eine Neutralitätspolitik, die einem wirklichen Bedürfnis des Arbeitgebers entspricht) erfordert, wobei die Mittel angemessen und erforderlich sein müssen."
+        },
+        {
+            "question": "Ein Mitarbeiter, dessen Kind eine schwere Behinderung hat und Pflege benötigt, wird von seinem Vorgesetzten aufgrund seiner häufigen, notwendigen Abwesenheiten bei Beförderungen übergangen. Ist dies nach europäischem Antidiskriminierungsrecht zulässig?",
+            "answers": {
+                "a": "Ja, weil der Arbeitnehmer selbst nicht behindert ist und das Merkmal Behinderung nur die Person mit der Behinderung schützt.",
+                "b": "Nein, es liegt eine unmittelbare Diskriminierung vor, da das Verbot nicht auf Personen beschränkt ist, die selbst behindert sind. Eine Benachteiligung, die wegen der Behinderung des Kindes erfolgt, für das der Arbeitnehmer die Pflegeleistungen erbringt, verstößt gegen das Diskriminierungsverbot.",
+                "c": "Nur wenn die Benachteiligung durch objektive, nicht mit der Behinderung zusammenhängende Faktoren gerechtfertigt werden kann, ist sie zulässig."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Die Richtlinie 2000/78/EG ist so auszulegen, dass sie nicht nur Menschen schützt, die selbst behindert sind. Eine Benachteiligung eines nichtbehinderten Arbeitnehmers, die nachweislich wegen der Behinderung seines Kindes erfolgt, das er pflegt, stellt eine unmittelbare Diskriminierung dar."
+        },
+        {
+            "question": "Welche finanziellen Rechtsfolgen drohen einem Unternehmen, das eine Entgeltdiskriminierung aufgrund des Geschlechts nicht rechtfertigen kann (z. B. im Rahmen der Entgelttransparenz)?",
+            "answers": {
+                "a": "Das Unternehmen muss lediglich eine Geldbuße wegen Verstoßes gegen die Berichterstattungspflicht zahlen.",
+                "b": "Der diskriminierte Arbeitnehmer hat Anspruch auf die Zahlung der Entgeltdifferenz (Anpassung an das höhere Entgelt der Vergleichsperson).",
+                "c": "Der diskriminierte Arbeitnehmer hat Anspruch auf eine Entschädigung für die erlittene persönliche (immaterielle) Beeinträchtigung.",
+                "d": "Im Rahmen der neuen ET-RL können wirksame, verhältnismäßige und abschreckende Sanktionen wie Geldbußen verhängt werden, die sich auf den Bruttojahresumsatz oder die Gesamtentgeltsumme des Arbeitgebers stützen können."
+            },
+            "correctAnswers": ["b", "c", "d"],
+            "explanation": "Bei Entgeltdiskriminierung kommt es in der Regel zu einer Angleichung des Entgelts ('Levelling up'). Zusätzlich steht dem Opfer eine Entschädigung für die persönliche Beeinträchtigung zu. Zukünftig können die Mitgliedstaaten im Rahmen der ET-RL abschreckende Geldbußen festlegen, die auf dem Umsatz oder der Gesamtentgeltsumme des Arbeitgebers basieren."
+        }
+    ]
+}
