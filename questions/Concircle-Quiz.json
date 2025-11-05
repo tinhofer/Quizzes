@@ -27,10 +27,10 @@
                 "a": "Ja, Verhandlungsgeschick ist ein legitimer Grund für Gehaltsunterschiede",
                 "b": "Nein, bei gleichwertiger Arbeit gebührt Frauen und Männern das gleiche Entgelt",
                 "c": "Ja, wenn beide die Möglichkeit hatten zu verhandeln",
-                "d": "Es kommt darauf an, ob man den Unterschied sachlich begründen kann"
+                "d": "Ja, wenn er eine Familie erhalten muss und die Kollegin Single ist"
             },
-            "correctAnswers": ["d"],
-            "explanation": "Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
+            "correctAnswers": ["b"],
+            "explanation": "Nein, Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (z.B. unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
         },
         {
             "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragst du: 'Planen Sie in nächster Zeit eine Familie zu gründen?' Ist diese Frage zulässig?",
@@ -55,15 +55,16 @@
             "explanation": "Dies ist ein klassischer Fall mittelbarer Diskriminierung. Eine scheinbar neutrale Regelung kann diskriminierend sein, wenn sie bestimmte geschützten AN-Gruppen (hier: Frauen, weil diese überwiegend die Kinderbetreuung übernehmen) besonders benachteiligt, ohne dass dies sachlich gerechtfertigt ist."
         },
         {
-            "question": "Ein Muslim möchte während der Arbeitszeit Gebetspausen einlegen. Ein anderer Mitarbeiter trägt ein sichtbares Kreuz. Müssen Sie beides erlauben oder können Sie beides verbieten?",
+            "question": "Im Rahmen des Antidiskriminierungsrechts sind bestimmte Merkmale (Schutzgründe) geschützt. Welche der folgenden Merkmale sind in Österreich im Zusammenhang mit einem Dienstverhältnis u. a. geschützt?",
             "answers": {
-                "a": "Sie müssen beides erlauben",
-                "b": "Sie können beides verbieten, wenn betriebliche Gründe vorliegen",
-                "c": "Sie müssen das Kreuz erlauben, können aber Gebetspausen ablehnen",
-                "d": "Sie müssen unterscheiden: sichtbare Symbole ja, religiöse Praktiken nein"
+                "a": "Geschlecht",
+                "b": "Religion oder Weltanschauung",
+                "c": "Ethnische Zugehörigkeit",
+                "d": "Alter",
+                "e": "Sexuelle Orientierung"
             },
-            "correctAnswers": ["b"],
-            "explanation": "Nach der EuGH-Rechtsprechung können Arbeitgeber aus betrieblichen Gründen (z.B. Neutralitätsgebot gegenüber Kunden) religiöse Symbole verbieten, wenn dies alle Religionen gleichermaßen betrifft. Bei Gebetspausen ist eine angemessene Berücksichtigung religiöser Bedürfnisse erforderlich, soweit keine unverhältnismäßige Belastung entsteht."
+            "correctAnswers": ["a", "b", "c", "d", "e"],
+            "explanation": "Alle genannten Merkmale sind Schutzgründe, die in Österreich im Zusammenhang mit einem Dienst- oder Ausbildungsverhältnis vor Diskriminierung schützen."
         },
         {
             "question": "Sie bevorzugen bei einer Einstellung bewusst den 28-jährigen Bewerber gegenüber der 52-jährigen Bewerberin, weil 'jüngere Mitarbeiter besser ins Team passen'. Ist das zulässig?",
@@ -74,7 +75,7 @@
                 "d": "Kommt darauf an, ob die jüngere Person besser qualifiziert ist"
             },
             "correctAnswers": ["b"],
-            "explanation": "Das ist ein klarer Fall von Altersdiskriminierung nach § 19 Z 1 GlBG. 'Teamfit' oder 'jüngeres Team' sind keine sachlichen Rechtfertigungsgründe. Die Entscheidung muss auf objektiven, berufsbezogenen Kriterien basieren (Qualifikation, Erfahrung, Fähigkeiten)."
+            "explanation": "Das ist ein klarer Fall von Altersdiskriminierung. 'Teamfit' oder 'jüngeres Team' sind keine sachlichen Rechtfertigungsgründe. Die Entscheidung muss auf objektiven, berufsbezogenen Kriterien basieren (Qualifikation, Erfahrung, Fähigkeiten)."
         },
         {
             "question": "Bei einem Teammeeting macht ein Mitarbeiter einen Witz über das Aussehen einer Kollegin. Alle lachen, auch die Kollegin. Sie als GF sind nicht anwesend, erfahren aber später davon. Müssen Sie reagieren?",
@@ -85,7 +86,7 @@
                 "d": "Nein, das ist Privatsache des Teams"
             },
             "correctAnswers": ["b"],
-            "explanation": "Nach § 26 GlBG haben Arbeitgeber eine Schutz- und Fürsorgepflicht. Sie müssen geeignete Maßnahmen zum Schutz vor Belästigung treffen. Dass die Kollegin mitlachte, ist nicht entscheidend – oft geschieht dies aus Verlegenheit. Sie müssen klare Grenzen setzen, um ein diskriminierungsfreies Arbeitsumfeld zu gewährleisten."
+            "explanation": "Arbeitgeber:innen haben eine Schutz- und Fürsorgepflicht. Sie müssen geeignete Maßnahmen zum Schutz vor Belästigung treffen. Dass die Kollegin mitlachte, ist nicht entscheidend – oft geschieht dies aus Verlegenheit. Sie müssen klare Grenzen setzen, um ein diskriminierungsfreies Arbeitsumfeld zu gewährleisten."
         },
         {
             "question": "Ein Mitarbeiter mit Rückenproblemen beantragt einen höhenverstellbaren Schreibtisch (Kosten: €800). Müssen Sie das bezahlen?",
@@ -96,10 +97,10 @@
                 "d": "Nur bei Schwerbehinderung"
             },
             "correctAnswers": ["b"],
-            "explanation": "Nach § 6 BEinstG müssen Arbeitgeber 'angemessene Vorkehrungen' treffen, um Menschen mit Behinderungen die Teilhabe am Arbeitsleben zu ermöglichen. Ein höhenverstellbarer Schreibtisch für €800 ist in der Regel eine verhältnismäßige Maßnahme. Eine Förderung durch das SMS ist möglich, aber nicht Voraussetzung für die Verpflichtung."
+            "explanation": "Nach § 6 BEinstG müssen Arbeitgeber 'angemessene Vorkehrungen' treffen, um Menschen mit Behinderungen die Teilhabe am Arbeitsleben zu ermöglichen. Ein höhenverstellbarer Schreibtisch für €800 ist in der Regel eine verhältnismäßige Maßnahme. Eine Förderung durch das SMS ist ev. möglich, aber nicht Voraussetzung für die Verpflichtung."
         },
         {
-            "question": "Sie besetzen eine Führungsposition intern. Zwei Kandidaten sind gleich qualifiziert – ein Mann und eine Frau. In der Führungsebene sind bereits 80% Männer. Dürfen Sie gezielt die Frau bevorzugen?",
+            "question": "Sie besetzen eine Führungsposition intern. Zwei Kandidaten sind gleich qualifiziert – ein Mann und eine Frau. In der Führungsebene sind bereits 80% Männer. Dürfen Sie die Frau bevorzugen?",
             "answers": {
                 "a": "Ja, um das Geschlechterverhältnis auszugleichen",
                 "b": "Nein, das wäre „umgekehrte Diskriminierung\"",
@@ -107,21 +108,22 @@
                 "d": "Es kommt auf die Gesamtumstände an"
             },
             "correctAnswers": ["d"],
-            "explanation": "Nach § 5 GlBG sind Maßnahmen zur Förderung der Gleichstellung zulässig ('positive Maßnahmen'). Bei gleicher Qualifikation darf die unterrepräsentierte Gruppe bevorzugt werden, wenn keine zwingenden Gründe für den anderen Kandidaten sprechen (§ 11b B-GlBG für Bund). Dies muss aber im Einzelfall geprüft werden – eine automatische Quote ohne Einzelfallprüfung wäre unzulässig."
+            "explanation": "Maßnahmen zur Förderung der Gleichstellung sind grundsätzlich zulässig ('positive Maßnahmen'). Bei gleicher Qualifikation darf die unterrepräsentierte Gruppe bevorzugt werden, wenn keine zwingenden Gründe für den anderen Kandidaten sprechen. Dies muss aber im Einzelfall geprüft werden – eine automatische Quote ohne Einzelfallprüfung wäre unzulässig."
         },
         {
             "question": "Eine Bewerberin klagt erfolgreich wegen Diskriminierung im Bewerbungsverfahren, obwohl sie für die Stelle objektiv ungeeignet war. Was droht dem Unternehmen?",
             "answers": {
                 "a": "Nichts, da sie ohnehin nicht geeignet war",
-                "b": "Schadenersatz von bis zu 2 Monatsgehältern",
+                "b": "Schadenersatz von bis zu EUR 500",
                 "c": "Sie muss eingestellt werden",
                 "d": "Nur eine Verwarnung beim ersten Mal"
             },
             "correctAnswers": ["b"],
-            "explanation": "Nach § 12 Abs 8 GlBG kann bei Diskriminierung im Bewerbungsverfahren ein Schadenersatz von mindestens 500 Euro bis maximal 2 Monatsgehältern zugesprochen werden – und zwar unabhängig davon, ob die Person geeignet war. Die Diskriminierung liegt im Verfahren selbst (z.B. unzulässige Fragen, diskriminierende Stellenausschreibung)."
+            "explanation": "Bei Diskriminierung im Bewerbungsverfahren kann vom Gericht ein Schadenersatz von bis zu 500 Euro zugesprochen werden, wenn die Person die Stelle auch bei diskriminierungsfreier Auswahl nicht erhalten hätte. Die Diskriminierung liegt im Verfahren selbst (zB unzulässige Fragen, diskriminierende Stellenausschreibung)."
         }
     ]
 }
+
 
 
 
