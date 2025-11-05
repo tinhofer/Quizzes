@@ -77,6 +77,16 @@
             "correctAnswers": ["b"],
             "explanation": "Das ist ein klarer Fall von Altersdiskriminierung. 'Teamfit' oder 'jüngeres Team' sind keine sachlichen Rechtfertigungsgründe. Die Entscheidung muss auf objektiven, berufsbezogenen Kriterien basieren (Qualifikation, Erfahrung, Fähigkeiten)."
         },
+             {
+            "question": "Ein Mitarbeiter, dessen Kind eine schwere Behinderung hat und Pflege benötigt, wird von seinem Vorgesetzten aufgrund seiner häufigen, notwendigen Abwesenheiten bei Beförderungen übergangen. Ist dies nach europäischem Antidiskriminierungsrecht zulässig?",
+            "answers": {
+                "a": "Ja, weil der Arbeitnehmer selbst nicht behindert ist und das Merkmal Behinderung nur die Person mit der Behinderung schützt.",
+                "b": "Nein, es liegt eine unmittelbare Diskriminierung vor, da das Verbot nicht auf Personen beschränkt ist, die selbst behindert sind. Eine Benachteiligung, die wegen der Behinderung des Kindes erfolgt, für das der Arbeitnehmer die Pflegeleistungen erbringt, verstößt gegen das Diskriminierungsverbot.",
+                "c": "Nur wenn die Benachteiligung durch objektive, nicht mit der Behinderung zusammenhängende Faktoren gerechtfertigt werden kann, ist sie zulässig."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Eine Benachteiligung eines/einer nichtbehinderten AN, die wegen der Pflegebedürftigkeit seines/ihres behinderten Kindes erfolgt, stellt eine unmittelbare Diskriminierung dar."
+        },
         {
             "question": "Bei einem Teammeeting macht ein Mitarbeiter einen Witz über das Aussehen einer Kollegin. Alle lachen, auch die Kollegin. Sie als GF sind nicht anwesend, erfahren aber später davon. Müssen Sie reagieren?",
             "answers": {
@@ -123,6 +133,7 @@
         }
     ]
 }
+
 
 
 
