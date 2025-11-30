@@ -1,0 +1,119 @@
+{
+    "title": "Gleichbehandlung und Entgelttransparenz",
+    "type": "simple",
+    "url": "Gleichbehandlung_Entgelttransparenz",
+    "results": [
+        {"t": "Hervorragend! Sie sind in Gleichbehandlu", "e": "🏆"},
+        {"t": "Sehr gut! Sie liegen bei den meisten Fragen richtig!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Luft nach oben.", "e": "👍"},
+        {"t": "Kein Problem – genau dafür sind wir heute hier. Nach dem Seminar sehen die Antworten ganz anders aus!", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Sie suchen einen Senior Software Developer. In der Stellenausschreibung steht: „Wir suchen einen erfahrenen Entwickler mit mindestens 10 Jahren Berufserfahrung.\" Ist diese Formulierung rechtlich problematisch?",
+            "answers": {
+                "a": "Nein, das ist eine neutrale Anforderung",
+                "b": "Ja, wegen der männlichen Form ('Entwickler')",
+                "c": "Ja, sowohl wegen der männlichen Form als auch wegen der Berufserfahrung",
+                "d": "Nur problematisch, wenn sich keine Frauen bewerben"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Die ausschließlich männliche Form verstößt gegen das Gebot der geschlechtsneutralen Formulierung (§ 9 Abs 1 GlBG)."
+        },
+        {
+            "question": "Zwei Mitarbeitende (Mann und Frau) arbeiten seit 3 Jahren in derselben Position mit vergleichbaren Aufgaben. Der Mann verdient 15% mehr, weil er beim Eintritt besser verhandelt hat. Ist das zulässig?",
+            "answers": {
+                "a": "Ja, Verhandlungsgeschick ist ein legitimer Grund für Gehaltsunterschiede",
+                "b": "Nein, bei gleichwertiger Arbeit gebührt Frauen und Männern das gleiche Entgelt",
+                "c": "Ja, wenn beide die Möglichkeit hatten zu verhandeln",
+                "d": "Ja, wenn er eine Familie erhalten muss und die Kollegin Single ist"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Nein, Verhandlungsgeschick allein rechtfertigt keinen dauerhaften Gehaltsunterschied bei gleichwertiger Arbeit. Der Unterschied muss sachlich begründbar sein (zB unterschiedliche Qualifikationen, Leistung). Studien zeigen, dass 'Verhandlungsgeschick' oft geschlechtsspezifische Diskriminierung verschleiert."
+        },
+        {
+            "question": "Im Vorstellungsgespräch mit einer 32-jährigen Bewerberin fragen Sie: 'Planen Sie in nächster Zeit eine Familie zu gründen?' Ist diese Frage zulässig?",
+            "answers": {
+                "a": "Ja, wenn es für die Personalplanung relevant ist",
+                "b": "Nein, das ist grundsätzlich unzulässig",
+                "c": "Ja, wenn Sie auch männliche Bewerber das Gleiche fragen",
+                "d": "Nur mit Einverständnis der Bewerberin"
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Es ist grundsätzlich verboten, vor Begründung eines Arbeitsverhältnisses Fragen zum Familienstand oder zur Familienplanung zu stellen. Dies gilt unabhängig davon, ob die Frage auch an Männer gestellt würde. Die Bewerberin dürfte sogar wahrheitswidrig antworten (sog 'Recht zur Lüge')."
+        },
+        {
+            "question": "Sie führen ein Bewerbungsgespräch. Welche der folgenden Fragen dürfen Sie dem/der Bewerber:in nach der EU-Entgelttransparenz-Richtlinie (ET-RL) nicht stellen?",
+            "answers": {
+                "a": "Fragen über die Qualifikationen und Berufserfahrung.",
+                "b": "Fragen über Entgeltvorstellungen.",
+                "c": "Fragen über Entgelthöhe oder -entwicklung im aktuellen oder in einem früheren Job."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "AG dürfen Bewerber:innen nicht nach ihrer bisherigen Entgeltentwicklung befragen. Sie müssen diese jedoch über das Einstiegsentgelt oder die Entgeltspanne für die betreffende Position informieren."
+        },
+        {
+            "question": "Das Antidiskriminierungsrecht (zB GlBG, BEinstG) verbietet Diskriminierungen aufgrund bestimmter Merkmale. Auf welche der folgenden Merkmale trifft das zu?",
+            "answers": {
+                "a": "Geschlecht",
+                "b": "Religion und Weltanschauung",
+                "c": "Ethnische Zugehörigkeit",
+                "d": "Alter",
+                "e": "Behinderung"
+            },
+            "correctAnswers": ["a", "b", "c", "d", "e"],
+            "explanation": "Alle genannten Merkmale sind sog 'geschützte Merkmale'. Diese Merkmale sind nicht oder nicht zumutbar veränderbar und geben oft Anlass für (zumindest teilweise) vorurteilsbeladene Eigenschaftszuschreibungen."
+        },
+        {
+            "question": "Das Gleichbehandlungsgesetz (GlBG) unterscheidet zwischen unmittelbarer und mittelbarer Diskriminierung. Wann liegt eine mittelbare Diskriminierung vor?",
+            "answers": {
+                "a": "Wenn eine Person aufgrund eines geschützten Merkmals (zB Geschlecht) in einer vergleichbaren Situation schlechter behandelt wird als eine andere Person.",
+                "b": "Wenn eine Führungskraft eine diskriminierende Anweisung erteilt, die ein geschütztes Merkmal betrifft.",
+                "c": "Wenn eine ihrem Inhalt nach neutrale Regelung (zB Kriterien für Jahresprämie) Angehörige einer geschützten Gruppe in besonderer Weise benachteiligt oder benachteiligen kann, ohne dass dies sachlich gerechtfertigt ist."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Um eine mittelbare Benachteiligung feststellen zu können, sind die tatsächlichen Auswirkungen auf die verschiedenen Gruppen zu untersuchen. Das kann unter Berufung auf Statistiken erfolgen, es sind aber auch andere geeignete Mittel zulässig."
+        },
+        {
+            "question": "Ihr Unternehmen verwendet ein internes Entlohnungsschema, das sog 'soft skills' (wie Teamfähigkeit, Kommunikationsstärke, Konfliktmanagement) im Vergleich zu den technischen Anforderungen der Stelle bei der Festlegung des Entgelts geringer bewertet. Welche Aussage ist zutreffend?",
+            "answers": {
+                "a": "Dies ist immer zulässig, solange das Kriterium für alle AN gilt und kein direkter Verweis auf ein geschütztes Merkmal besteht.",
+                "b": "Dies kann eine mittelbare Diskriminierung von Frauen darstellen.",
+                "c": "Nur die Heranziehung von Kriterien, die auf Körperkraft abstellen, kann eine Diskriminierung begründen."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Entgeltstrukturen müssen auf objektiven, geschlechtsneutralen Kriterien beruhen. Insbesondere dürfen relevante soziale Kompetenzen nicht unterbewertet werden, weil Frauen bei den Soft Skills statistisch besser abschneiden als Männer. Entscheidend ist, ob für die geringere Gewichtung eine sachliche Rechtfertigung besteht."
+        },
+        {
+            "question": "Was beschreibt der 'unbereinigte Gender Pay Gap' (GPG) in der Europäischen Union (EU)?",
+            "answers": {
+                "a": "Die Gehaltsdifferenz zwischen Männern und Frauen mit gleicher Qualifikation und Erfahrung.",
+                "b": "Die Differenz zwischen dem durchschnittlichen Bruttostundenverdienst von männlichen und weiblichen Beschäftigten, ausgedrückt in Prozent des durchschnittlichen Bruttostundenverdienstes männlicher Beschäftigter.",
+                "c": "Die Differenz zwischen den Nettomonatsgehältern von Männern und Frauen."
+            },
+            "correctAnswers": ["b"],
+            "explanation": "Der unbereinigte GPG liegt in der EU im Schnitt bei etwa 12% und kombiniert die Auswirkungen möglicher direkter Diskriminierung mit strukturellen Unterschieden (zB sektorielle Segregation, ungleiche Verteilung von bezahlter und unbezahlter Arbeit, Frauen sind in Führungsfunktionen unterrepräsentiert)."
+        },
+        {
+            "question": "Ihr Unternehmen beschäftigt 100 AN. Welche neue Pflichten treffen Sie ab Umsetzung der EU-Entgelttransparenz-Richtlinie (ET-RL) in Bezug auf das Entgeltgefälle?",
+            "answers": {
+                "a": "Das Unternehmen muss diesbezüglich keine Pflichten erfüllen, da die Richtlinie nur für Unternehmen mit über 250 Mitarbeitern gilt.",
+                "b": "Das Unternehmen muss regelmäßig über das geschlechtsspezifische Entgeltgefälle berichten.",
+                "c": "Wenn das geschlechtsspezifische Entgeltgefälle in einer Gruppe mindestens 5 % beträgt UND weder objektiv gerechtfertigt werden kann noch innerhalb von 6 Monaten korrigiert wird, muss eine gemeinsame Entgeltbewertung mit der AN-Vertretung (idR BR) durchgeführt werden (Art 10)."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Gemeinsame Entgeltbewertungen sollten innerhalb einer angemessenen Frist dazu führen, dass geschlechtsspezifische Entgeltdis­kriminierungen beseitigt werden."
+        },
+        {
+            "question": "Welche Rechtsfolgen drohen einem Unternehmen, wenn ein Gericht hinsichtlich des laufenden Monatsgehalts eine Diskriminierung aufgrund des Geschlechts der Klägerin feststellt?",
+            "answers": {
+                "a": "Das Unternehmen muss lediglich eine Geldbußen zahlen.",
+                "b": "Die diskriminierte Arbeitnehmerin hat Anspruch auf die Zahlung der Entgeltdifferenz (Anpassung an das höhere Entgelt der Vergleichsperson).",
+                "c": "Die diskriminierte Arbeitnehmerin hat Anspruch auf eine Entschädigung für die erlittene persönliche (immaterielle) Beeinträchtigung.",
+                "d": "Im Rahmen der neuen Entgelttransparenz-RL müssen Mitgliedstaaten wirksame, verhältnismäßige und abschreckende Sanktionen wie Geldbußen vorsehen."
+            },
+            "correctAnswers": ["b", "c", "d"],
+            "explanation": "Bei Entgeltdiskriminierung kommt es in der Regel zu einer Angleichung des Entgelts nach 'oben' ('Levelling up'). Zusätzlich steht dem Opfer eine Entschädigung für die persönliche Beeinträchtigung zu. Welche zusätzlichen Sanktionen der österreichische Gesetzgeber bei Verstoß gegen das Grundsatzes des gleichen Entgelts vorsehen wird, ist noch offen.."
+        }
+    ]
+}
