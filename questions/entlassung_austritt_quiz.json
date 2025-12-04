@@ -1,0 +1,123 @@
+{
+    "title": "Entlassung und Austritt im österreichischen Arbeitsrecht",
+    "type": "simple",
+    "url": "test",
+    "results": [
+        {"t": "Hervorragend!", "e": "🏆"},
+        {"t": "Sehr gut!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung.", "e": "👍"},
+        {"t": "Du solltest noch etwas mehr lernen.", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Welche Aussage(n) zur Form der Entlassungs- bzw. Austrittserklärung ist/sind zutreffend?",
+            "answers": {
+                "a": "Die Entlassung muss stets schriftlich erfolgen, um wirksam zu sein.",
+                "b": "Die Auflösungserklärung kann mündlich, schriftlich, ausdrücklich oder schlüssig erfolgen.",
+                "c": "Die Begriffe 'Entlassung' bzw. 'Austritt' müssen in der Erklärung verwendet werden.",
+                "d": "Entscheidend ist, dass für den Vertragspartner die Absicht, das Arbeitsverhältnis sofort zu beenden, klar erkennbar ist."
+            },
+            "correctAnswers": ["b", "d"],
+            "explanation": "Gemäß der Rechtsprechung ist für die vorzeitige Auflösung grundsätzlich keine bestimmte Form vorgesehen. Die Auflösungserklärung kann daher mündlich oder schriftlich, ausdrücklich oder schlüssig erfolgen. Die Begriffe 'Entlassung' bzw. 'Austritt' müssen nicht verwendet werden. Entscheidend ist allein, dass für den Vertragspartner die Absicht, das Arbeitsverhältnis sofort zu beenden, klar erkennbar ist."
+        },
+        {
+            "question": "Welche Aussage(n) zu § 27 AngG bzw § 82 GewO ist/sind richtig?",
+            "answers": {
+                "a": "Die Aufzählung in § 27 AngG ist taxativ (erschöpfend).",
+                "b": "Die Aufzählung in § 82 GewO 1859 ist demonstrativ (nicht erschöpfend).",
+                "c": "Die Aufzählung in § 27 AngG ist demonstrativ, jene in § 82 GewO 1859 ist taxativ.",
+                "d": "Beide Aufzählungen sind bloß demonstrativ."
+            },
+            "correctAnswers": ["c"],
+            "explanation": "Die Aufzählung der Entlassungstatbestände in § 27 AngG ist demonstrativ, dh nicht erschöpfend, sodass Analogien zulässig sind. Hingegen ist nach ständiger Rechtsprechung die Aufzählung in § 82 GewO 1859 taxativ, dh erschöpfend. Eine ausdehnende Anwendung auf einen nach Beschaffenheit und Bedeutung gleichwertigen Tatbestand ist zwar zulässig, nicht jedoch Analogie."
+        },
+        {
+            "question": "Eine Arbeitgeberin erfährt am Montag von einem Entlassungsgrund. Sie spricht die Entlassung erst am darauffolgenden Montag (6 Tage später) aus, ohne das der AN vorher mit dem Sachverhalt konfrontiert wird. Was gilt?",
+            "answers": {
+                "a": "Die Entlassung ist rechtzeitig, da eine Woche Überlegungsfrist zulässig ist.",
+                "b": "Die Entlassung ist verspätet.",
+                "c": "Der AN muss die Verspätung der Entlassung im Prozess einwenden, widrigenfalls diese Frage vom Gericht nicht geprüft wird.",
+                "d": "Die Rechtzeitigkeit hängt ausschließlich von der Art des Entlassungsgrundes ab."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Nach der Judikatur ist eine Entlassung sechs Tage nach dem Bekanntwerden der Entlassungsgründe idR verspätet. Die Verspätung der Entlassung ist jedoch nur bei bei einer entsprechenden Einwendung des/der AN im Prozess zu prüfen."
+        },
+        {
+            "question": "Welche Rechtsfolgen hat eine unberechtigte Entlassung bei nicht besonders bestandgeschützten AN?",
+            "answers": {
+                "a": "Die unberechtigte Entlassung ist unwirksam und das Arbeitsverhältnis besteht fort.",
+                "b": "Auch eine unberechtigte Entlassung löst das Arbeitsverhältnis mit sofortiger Wirkung auf.",
+                "c": "Der/Die AN hat Anspruch auf Kündigungsentschädigung.",
+                "d": "Der/Die AN hat keinen Anspruch auf Abfertigung ALT."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Auch eine unberechtigte Entlassung löst – bei nicht besonders bestandgeschützten Arbeitnehmern – das Arbeitsverhältnis auf. Der/Die unberechtigt entlassene AN hat neben der Kündigungsentschädigung auch Anspruch auf Abfertigung ALT (sofern anwendbar)."
+        },
+        {
+            "question": "Welche Aussagen zum Entlassungstatbestand der Vertrauensunwürdigkeit (§ 27 Z 1 3. Fall AngG) sind korrekt?",
+            "answers": {
+                "a": "Strafbarkeit des Verhaltens ist erforderlich.",
+                "b": "Der/Die AN muss vorher ermahnt worden sein.",
+                "c": "Schädigungsabsicht oder ein Schadenseintritt sind nicht erforderlich.",
+                "d": "Die Begehungshandlung muss pflichtwidrig und schuldhaft sein, wobei Fahrlässigkeit genügt."
+            },
+            "correctAnswers": ["c", "d"],
+            "explanation": "Die Begehungshandlung selbst muss pflichtwidrig und schuldhaft sein, ihr Erfolg – der Eintritt der Vertrauensunwürdigkeit und die Gefährdung der dienstlichen Interessen – muss aber von der Schuld nicht umfasst werden."
+        },
+        {
+            "question": "Welche Aussage(n) zum Austrittsgrund der Gesundheitsgefährdung (§ 26 Z 1 AngG) ist/sind richtig?",
+            "answers": {
+                "a": "Der/Die AN ist verpflichtet, den/die AG über die Gesundheitsgefährdung aufzuklären, wenn diese nur einzelne Tätigkeiten betrifft.",
+                "b": "Die Gesundheitsgefährdung muss durch die Arbeitsleistung selbst verursacht worden sein.",
+                "c": "Der/Die AG kann durch Anbot einer vertragsgemäßen Ersatzbeschäftigung den Austrittsgrund beseitigen.",
+                "d": "Bei Zurückweisung einer vertragsgemäßen Ersatzbeschäftigung durch den/die AN ist der Austritt unberechtigt."
+            },
+            "correctAnswers": ["a", "c", "d"],
+            "explanation": "Der Austrittstatbestand ist nur dann gegeben, wenn der/die AN auch andere vom/von der AG aufgetragene oder angebotene Arbeiten, die durch den Arbeitsvertrag gedeckt sind, nicht verrichten kann. Bei Zurückweisung einer vertragsgemäßen Ersatzbeschäftigung ist der Austritt unberechtigt."
+        },
+        {
+            "question": "Beim Austrittsgrund des Vorenthaltens des Entgelts (§ 26 Z 2 AngG) gilt:",
+            "answers": {
+                "a": "Eine Nachfristsetzung ist stets erforderlich.",
+                "b": "Ein einmaliger Verzug bei der Auszahlung des Entgelts stellt in der Regel keinen Austrittsgrund dar.",
+                "c": "Bei einem Vorenthalten des Entgelts seit zwei Monaten muss der/die AG jederzeit mit einem Austritt rechnen, ohne dass es einer Nachfristsetzung bedarf.",
+                "d": "Durch das Hinnehmen von Zahlungsrückständen über einen längeren Zeitraum wird das Austrittsrecht verwirkt."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Durch das Hinnehmen von Zahlungsrückständen durch längere Zeit wird das Austrittsrecht nicht verwirkt, da es sich um einen rechtswidrigen Dauerzustand handelt."
+        },
+        {
+            "question": "Welche Aussage(n) zur beharrlichen Pflichtenvernachlässigung (§ 27 Z 4 2. Fall AngG) ist/sind zutreffend?",
+            "answers": {
+                "a": "Vor Ausspruch einer Entlassung muss der/die AN vom Arbeitgeber in der Regel ermahnt worden sein.",
+                "b": "Eine Ermahnung kann unterbleiben, wenn die Weigerung derart eindeutig und endgültig ist, dass sie eine bloße Formalität wäre.",
+                "c": "Eine einmalige Pflichtenverletzung erfüllt niemals das Tatbestandsmerkmal der Beharrlichkeit.",
+                "d": "Die Ermahnung muss vom/von der AG mit dem Hinweis verbunden werden, dass der/die AN im Fall der Nichtbefolgung eine Entlassung zu gewärtigen habe."
+            },
+            "correctAnswers": ["a", "b"],
+            "explanation": "Unter Beharrlichkeit ist die Nachhaltigkeit, Unnachgiebigkeit oder Hartnäckigkeit des in der Arbeitsverweigerung zum Ausdruck gelangenden Willens zu verstehen. Wenn jedoch die Weigerung derart eindeutig und endgültig ist, kann eine Ermahnung unterbleiben."
+        },
+        {
+            "question": "Beim Entlassungsgrund des Unterlassens der Dienstleistung (§ 27 Z 4 1. Fall AngG) gilt:",
+            "answers": {
+                "a": "Ein rechtmäßiger Hinderungsgrund schließt die Berechtigung zur Entlassung aus.",
+                "b": "Die Beweislast für das Vorliegen eines Rechtfertigungsgrundes liegt beim/bei der AN.",
+                "c": "Die Unterlassung der rechtzeitigen Krankmeldung rechtfertigt stets eine Entlassung.",
+                "d": "Wiederholtes Zuspätkommen bildet nach ständiger Rechtsprechung einen Entlassungsgrund."
+            },
+            "correctAnswers": ["a", "b", "d"],
+            "explanation": "Ein rechtmäßiger, die Entlassung ausschließender Hinderungsgrund liegt vor, wenn dem Arbeitnehmer aus besonderen Gründen eine vertragsgemäße Arbeitsleistung billigerweise nicht zugemutet werden kann. Die Beweislast für das Vorliegen eines Rechtfertigungsgrundes liegt beim/bei der AN. Die Unterlassung der rechtzeitigen Krankmeldung rechtfertigt eine Entlassung nicht, weil dadurch ein an sich nicht pflichtwidriges Dienstversäumnis nicht in ein pflichtwidriges Verhalten verwandelt wird."
+        },
+        {
+            "question": "Welche Rechtsfolgen hat ein unberechtigter Austritt des/der AN?",
+            "answers": {
+                "a": "Der unberechtigte Austritt beendet das Arbeitsverhältnis mit sofortiger Wirkung.",
+                "b": "Der/Die AN hat Anspruch auf Abfertigung.",
+                "c": "Der/Die AN ist für vier Wochen vom Anspruch auf Arbeitslosengeld gesperrt.",
+                "d": "Der/Die AN hat Anspruch auf Urlaubsersatzleistung."
+            },
+            "correctAnswers": ["a", "c"],
+            "explanation": "Wie die unberechtigte Entlassung beendet auch der unberechtigte Austritt das Arbeitsverhältnis mit sofortiger Wirkung. Bei einem unberechtigten vorzeitigen Austritt bestehen weder Ansprüche auf Kündigungsentschädigung noch auf Abfertigung ALT (§ 23 Abs 7 AngG) und Urlaubsersatzleistung (§ 10 Abs 2 UrlG). Der/die AN ist vier Wochen lang gem § 11 AlVG vom Anspruch auf Arbeitslosengeld gesperrt."
+        }
+    ]
+}
