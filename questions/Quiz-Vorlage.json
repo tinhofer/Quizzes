@@ -1,0 +1,47 @@
+{
+    "title": "[TITEL]",
+    "type": "simple",
+    "url": "[TITEL]",
+    "results": [
+        {"t": "Hervorragend!", "e": "🏆"},
+        {"t": "Sehr gut!", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Raum für Verbesserung.", "e": "👍"},
+        {"t": "Du solltest noch etwas mehr lernen.", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Eine AG erfährt am Montag von einem Entlassungsgrund. Sie spricht die Entlassung erst am darauffolgenden Montag (6 Tage später) aus, ohne das der AN vorher mit dem Sachverhalt konfrontiert wird. Was gilt?",
+            "answers": {
+                "a": "Die Entlassung ist rechtzeitig, da eine Woche Überlegungsfrist zulässig ist.",
+                "b": "Die Entlassung ist verspätet.",
+                "c": "Der AN muss die Verspätung der Entlassung im Prozess einwenden, widrigenfalls diese Frage vom Gericht nicht geprüft wird.",
+                "d": "Die Rechtzeitigkeit hängt ausschließlich von der Art des Entlassungsgrundes ab."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Nach der Judikatur ist eine Entlassung sechs Tage nach dem Bekanntwerden der Entlassungsgründe idR verspätet. Die Verspätung der Entlassung ist jedoch nur bei bei einer entsprechenden Einwendung des/der AN im Prozess zu prüfen."
+        },
+        {
+            "question": "Beim Austrittsgrund des Vorenthaltens des Entgelts (§ 26 Z 2 AngG) gilt:",
+            "answers": {
+                "a": "Eine Nachfristsetzung ist stets erforderlich.",
+                "b": "Ein einmaliger Verzug bei der Auszahlung des Entgelts stellt in der Regel keinen Austrittsgrund dar.",
+                "c": "Bei einem Vorenthalten des Entgelts seit zwei Monaten muss der/die AG jederzeit mit einem Austritt rechnen, ohne dass es einer Nachfristsetzung bedarf.",
+                "d": "Durch das Hinnehmen von Zahlungsrückständen über einen längeren Zeitraum wird das Austrittsrecht verwirkt."
+            },
+            "correctAnswers": ["b", "c"],
+            "explanation": "Durch das Hinnehmen von Zahlungsrückständen durch längere Zeit wird das Austrittsrecht nicht verwirkt, da es sich um einen rechtswidrigen Dauerzustand handelt."
+        },
+        {
+            "question": "Welche Aussage(n) zur beharrlichen Pflichtenvernachlässigung (§ 27 Z 4 zweiter Fall AngG) ist/sind zutreffend?",
+            "answers": {
+                "a": "Vor Ausspruch einer Entlassung muss der/die AN vom/von der AG in der Regel ermahnt worden sein.",
+                "b": "Eine Ermahnung kann unterbleiben, wenn die Weigerung derart eindeutig und endgültig ist, dass sie eine bloße Formalität wäre.",
+                "c": "Eine einmalige Pflichtenverletzung erfüllt niemals das Tatbestandsmerkmal der Beharrlichkeit.",
+                "d": "Die Ermahnung muss vom/von der AG mit dem Hinweis verbunden werden, dass der/die AN im Fall der Nichtbefolgung eine Entlassung zu gewärtigen habe."
+            },
+            "correctAnswers": ["a", "b"],
+            "explanation": "Unter Beharrlichkeit ist die Nachhaltigkeit, Unnachgiebigkeit oder Hartnäckigkeit des in der Arbeitsverweigerung zum Ausdruck gelangenden Willens zu verstehen. Wenn die Weigerung des/der AN derart eindeutig und endgültig ist, kann eine Ermahnung unterbleiben."
+        },
+        
+    ]
+}
