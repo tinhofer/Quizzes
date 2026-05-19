@@ -1,0 +1,157 @@
+{
+    "title": "Beendigung des Arbeitsverhältnisses",
+    "type": "simple",
+    "url": "Beendigung_Arbeitsverhaeltnis",
+    "results": [
+        {"t": "Hervorragend! Sie kennen sich beim Beendigungsrecht bestens aus.", "e": "🏆"},
+        {"t": "Sehr gut! Sie liegen bei den meisten Fragen richtig.", "e": "🎓"},
+        {"t": "Gut gemacht! Aber es gibt noch Luft nach oben.", "e": "👍"},
+        {"t": "Kein Problem – genau dafür sind wir heute hier. Nach dem Seminar sehen die Antworten ganz anders aus!", "e": "😉"}
+    ],
+    "questions": [
+        {
+            "question": "Eine Kündigung ist eine einseitige, empfangsbedürftige Willenserklärung.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Eine Kündigung muss zwingend schriftlich erfolgen, um wirksam zu sein.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Die einmalige Befristung eines Arbeitsverhältnisses bedarf keiner sachlichen Rechtfertigung.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Bei einem unzulässigen Kettenarbeitsvertrag entsteht ein unbefristetes Arbeitsverhältnis.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Der Betriebsrat kann binnen zwei Wochen zur Kündigungsabsicht Stellung nehmen.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Eine Kündigungsanfechtung wegen Sozialwidrigkeit setzt eine Beschäftigungsdauer von mindestens 6 Monaten voraus.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Leitende Angestellte mit maßgebendem Einfluss auf die Betriebsführung sind vom allgemeinen Kündigungsschutz ausgenommen.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Eine ungerechtfertigte Entlassung beendet das Arbeitsverhältnis nicht.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Für Arbeiter:innen sind die Entlassungsgründe in § 82 GewO taxativ aufgezählt.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Bei der Vertrauensunwürdigkeit ist eine Schädigungsabsicht des/der AN erforderlich.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Eine Verwarnung ist grundsätzlich als Verzicht des/der AG auf das Entlassungsrecht zu verstehen.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Der Betriebsrat ist vor Ausspruch der Entlassung zu verständigen, sonst ist die Entlassung unwirksam.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Bei einer Massenkündigung muss das AMS mindestens 30 Tage vor Ausspruch der Kündigungen informiert werden.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        },
+        {
+            "question": "Der Betriebsrat hat bei einer geplanten Massenkündigung ein Vetorecht.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Eine einvernehmliche Beendigung kann rückwirkend vereinbart werden.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["b"],
+            "explanation": ""
+        },
+        {
+            "question": "Bei einer einvernehmlichen Beendigung mit einer Schwangeren ist die Schriftform erforderlich.",
+            "answers": {
+                "a": "richtig",
+                "b": "falsch"
+            },
+            "correctAnswers": ["a"],
+            "explanation": ""
+        }
+    ]
+}
